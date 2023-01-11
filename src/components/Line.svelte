@@ -3,12 +3,12 @@
 	import Chart from 'chart.js/auto';
 
 	onMount(async () => {
-		const ctx = document.getElementById('bubble');
+		const ctx = document.getElementById('Line');
 
 		new Chart(ctx, {
-			type: 'bar',
+			type: 'line',
 			data: {
-				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+				labels: ['Red', 'Blue', 'Yellow', 'Green'],
 				datasets: [
 					{
 						label: '# of Votes',
@@ -29,7 +29,7 @@
 </script>
 
 <article>
-	<canvas id="bubble" />
+	<canvas id="Line" />
 </article>
 
 <style>
@@ -39,8 +39,8 @@
 		align-items: center;
 		border-radius: 0.5em;
 		background: white;
-		grid-column: 3 / 8;
-		grid-row: 2 / 9;
+		grid-column: 1 / 7;
+		grid-row: 1 / 6;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
 </style>
