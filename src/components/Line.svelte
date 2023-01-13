@@ -8,16 +8,28 @@
 		new Chart(ctx, {
 			type: 'line',
 			data: {
-				labels: ['Red', 'Blue', 'Yellow', 'Green'],
+				labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
 				datasets: [
 					{
-						label: '# of Votes',
-						data: [12, 19, 3, 5, 2, 3],
+						label: 'Google searches',
+						data: [2, 6, 9, 13, 16, 21, 28],
+						borderWidth: 1
+					},
+					{
+						label: 'News articles',
+						data: [2, 3, 4, 5, 6, 16, 21],
+						borderWidth: 1
+					},
+					{
+						label: 'Court cases',
+						data: [2, 3, 3, 4, 5, 10, 12],
 						borderWidth: 1
 					}
 				]
 			},
 			options: {
+				responsive: true,
+				maintainAspectRatio: false,
 				scales: {
 					y: {
 						beginAtZero: true
@@ -29,14 +41,27 @@
 </script>
 
 <article>
-	<canvas id="Line" />
+	<h3>Interest over time</h3>
+	<div class="container">
+		<canvas id="Line" />
+	</div>
 </article>
 
 <style>
+	h3 {
+		font-weight: 500;
+		color: #1433dd;
+	}
+	.container {
+		width: 100%;
+		height: 100%;
+	}
 	article {
+		padding: 0em 2em 2em 2em;
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		color: #3a365f;
+		flex-direction: column;
+		align-items: flex-start;
 		border-radius: 0.5em;
 		background: white;
 		grid-column: 1 / 7;
