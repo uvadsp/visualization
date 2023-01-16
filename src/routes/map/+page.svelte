@@ -1,11 +1,12 @@
 <script>
 	import Nav from '../../components/Nav.svelte';
 	import Line from '../../components/Line.svelte';
+	import Map from '../../components/Map.svelte';
 </script>
 
 <Nav />
 <main>
-	<Line />
+	<Map />
 </main>
 
 <style>
