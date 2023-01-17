@@ -7,12 +7,28 @@
 	onMount(async () => {
 		const ctx = document.getElementById('Map');
 
-		fetch('https://cdn.jsdelivr.net/npm/us-atlas/states-10m.json')
+		async function load(url) {
+			const res = await fetch(
+				'https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json'
+			);
+			const item = await res.json();
+			return item;
+		}
+
+		const countries = await load();
+		console.log(countries);
+
+		const country = feature(countries, countries.objects.continent_Europe_subunits).features;
+		console.log(country);
+
+		const Netherlands = country.find((d) => d.properties.geounit === 'Netherlands');
+		console.log(Netherlands);
+
+		fetch('https://raw.githubusercontent.com/markmarkoh/datamaps/master/src/js/data/nld.topo.json')
 			.then((r) => r.json())
 			.then((us) => {
 				console.log(us);
-				const nation = feature(us, us.objects.nation).features;
-				const states = feature(us, us.objects.states).features;
+				const states = feature(us, us.objects.nld).features;
 
 				new ChoroplethChart(ctx, {
 					type: 'choropleth',
@@ -21,7 +37,7 @@
 						datasets: [
 							{
 								label: 'States',
-								outline: nation,
+								outline: Netherlands,
 								data: states.map((d) => ({ feature: d, value: Math.random() * 50 }))
 							}
 						]
@@ -35,7 +51,7 @@
 						scales: {
 							projection: {
 								axis: 'x',
-								projection: 'albersUsa'
+								projection: 'mercator'
 							},
 							color: {
 								axis: 'x',
@@ -53,3 +69,9 @@
 </script>
 
 <canvas id="Map" />
+
+<style>
+	canvas {
+		transform: translateY(5em);
+	}
+</style>
