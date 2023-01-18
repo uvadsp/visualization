@@ -1,11 +1,18 @@
 <script>
 	import Nav from '../../components/Nav.svelte';
 	import Line from '../../components/Line.svelte';
+	import Multiline from '../../components/Multiline.svelte';
+	import DoughnutOne from '../../components/Doughnut_1.svelte';
+	import DoughnutTwo from '../../components/Doughnut_2.svelte';
+	import DoughnutThree from '../../components/Doughnut_3.svelte';
 </script>
 
 <Nav />
 <main>
-	<Line />
+	<Multiline />
+	<DoughnutOne />
+	<DoughnutTwo />
+	<DoughnutThree />
 </main>
 
 <style>
@@ -25,7 +32,7 @@
 		margin: 0;
 		padding: 0;
 		grid-column: 1 / 7;
-		grid-row: 1 / 2;
+		grid-row: 1 / 5;
 		display: flex;
 		width: 100%;
 		justify-content: space-between;

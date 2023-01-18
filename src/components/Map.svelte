@@ -51,7 +51,7 @@
 						scales: {
 							projection: {
 								axis: 'x',
-								projection: 'mercator'
+								projection: 'transverseMercator'
 							},
 							color: {
 								axis: 'x',
