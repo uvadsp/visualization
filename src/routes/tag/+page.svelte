@@ -7,6 +7,10 @@
 	import DoughnutThree from '../../components/Doughnut_3.svelte';
 </script>
 
+<svelte:head>
+	<title>Keywords - Dashboard</title>
+</svelte:head>
+
 <Nav />
 <main>
 	<Multiline />

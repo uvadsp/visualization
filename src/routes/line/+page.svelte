@@ -14,6 +14,10 @@
 	<Dots />
 </main>
 
+<svelte:head>
+	<title>Popularity - Dashboard</title>
+</svelte:head>
+
 <style>
 	main {
 		padding: 2em 2em 2em 7em;

@@ -11,6 +11,10 @@
 	import List_4 from '../components/List_4.svelte';
 </script>
 
+<svelte:head>
+	<title>Dashboard</title>
+</svelte:head>
+
 <Nav />
 <main>
 	<ul>

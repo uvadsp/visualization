@@ -9,6 +9,11 @@
 	<Map />
 </main>
 
+<svelte:head>
+	<title>Location - Dashboard</title>
+	<link rel="icon" type="image/svg" href="/images/logo.svg" />
+</svelte:head>
+
 <style>
 	main {
 		padding: 2em 2em 2em 7em;
