@@ -2,6 +2,8 @@
 
 > Web-based visualization for the Data Systems Project @uva for the Police Academy 
 
+![GitHub banner](/docs/banner.jpg)
+
 ## Description
 
 Digital dashboard for analysts at the Police Academy to allow to filter and explore the datasets. Project structure built with [SvelteKit](https://kit.svelte.dev) and charts created with [Chart.js](https://www.chartjs.org).
