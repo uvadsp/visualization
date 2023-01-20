@@ -1,38 +1,41 @@
-# create-svelte
+# UVA Data Systems Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+> Web-based visualization for the Data Systems Project @uva for the Police Academy 
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+Digital dashboard for analysts at the Police Academy to allow to filter and explore the datasets. Project structure built with [SvelteKit](https://kit.svelte.dev) and charts created with [Chart.js](https://www.chartjs.org).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Install
 
-# create a new project in my-app
-npm create svelte@latest my-app
+### Prerequisites
+
+Make sure you have node and npm installed on your machine.
+
+### Running
+
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+# start a development server with hmr
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+# build a statis version of the site
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Live version of the application is hosted on Netlify which uses the auto adapter for deployment.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Project Structure
+
+```
+├── src                   # Svelte root folder
+│   ├── components        # Svelte components
+│   ├── datasets          # Raw .json files for data
+│   └── routes            # Dashboard pages
+├── static                # Fonts, images etc.
+└── README.md
+
+```
+
+## License
+
+Unless stated otherwise, code is [MIT][mit] © [Danny de Vries](https://github.com/dandevri) & docs and images are [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
