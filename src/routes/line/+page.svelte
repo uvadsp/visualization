@@ -3,12 +3,12 @@
 	import Summary from '../../components/Summary.svelte';
 	import Chart from '../../components/Chart.svelte';
 	import Dots from '../../components/Dots.svelte';
-	import Line from '../../components/Line.svelte';
+	import LineFilter from '../../components/Line-filter.svelte';
 </script>
 
 <Nav />
 <main>
-	<Line />
+	<LineFilter />
 	<Summary />
 	<Chart />
 	<Dots />

@@ -17,6 +17,13 @@
 	onMount(async () => {
 		const ctx = document.getElementById('Line');
 
+		const drug = document.querySelector('.drugs');
+		drug.addEventListener('change', drugSelect);
+
+		function drugSelect() {
+			console.log(drug.value);
+		}
+
 		new Chart(ctx, {
 			type: 'line',
 			data: {
@@ -89,7 +96,11 @@
 </script>
 
 <article>
-	<h3>Interest over time 2022</h3>
+	<h3>Interest over time per year for cocaine</h3>
+	<select class="drugs">
+		<option value="2021">2021</option>
+		<option value="2022">2022</option>
+	</select>
 	<div class="container">
 		<canvas id="Line" />
 	</div>
