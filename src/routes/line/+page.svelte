@@ -2,7 +2,7 @@
 	import Nav from '../../components/Nav.svelte';
 	import Summary from '../../components/Summary.svelte';
 	import Chart from '../../components/Chart.svelte';
-	import Dots from '../../components/Dots.svelte';
+	import Events from '../../components/Events.svelte';
 	import LineFilter from '../../components/Line-filter.svelte';
 </script>
 
@@ -11,7 +11,7 @@
 	<LineFilter />
 	<Summary />
 	<Chart />
-	<Dots />
+	<Events />
 </main>
 
 <svelte:head>

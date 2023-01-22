@@ -1,4 +1,4 @@
-export const tweets = {
+export const cocaineTweets = {
   "2021": [
     {
       "week": 1,
