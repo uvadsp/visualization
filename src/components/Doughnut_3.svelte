@@ -1,8 +1,27 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
+	import { xtcRelated } from '../data/related/xtc_related';
 
 	onMount(async () => {
+		let labelsxtc = [];
+		let relatedxtc = [];
+
+		console.log(xtcRelated);
+
+		let year = 2020;
+
+		for (let item of xtcRelated[year]) {
+			labelsxtc.push(item.drug);
+		}
+
+		for (let item of xtcRelated[year]) {
+			relatedxtc.push(item.score);
+		}
+
+		console.log(labelsxtc);
+		console.log(relatedxtc);
+
 		const ctx = document.getElementById('DoughnutThree');
 
 		new Chart(ctx, {
@@ -29,16 +48,10 @@
 				}
 			},
 			data: {
-				labels: ['3mmc', 'mdma', 'ghb', 'xtc'],
+				labels: labelsxtc,
 				datasets: [
 					{
-						data: [12, 8, 16, 4],
-						backgroundColor: [
-							'rgb(255, 99, 132)',
-							'rgb(75, 192, 192)',
-							'rgb(255, 205, 86)',
-							'rgb(201, 203, 207)'
-						]
+						data: relatedxtc
 					}
 				]
 			}

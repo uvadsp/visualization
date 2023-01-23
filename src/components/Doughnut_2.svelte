@@ -1,8 +1,27 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
+	import { ghbRelated } from '../data/related/ghb_related';
 
 	onMount(async () => {
+		let labelsghb = [];
+		let relatedghb = [];
+
+		console.log(ghbRelated);
+
+		let year = 2020;
+
+		for (let item of ghbRelated[year]) {
+			labelsghb.push(item.drug);
+		}
+
+		for (let item of ghbRelated[year]) {
+			relatedghb.push(item.score);
+		}
+
+		console.log(labelsghb);
+		console.log(relatedghb);
+
 		const ctx = document.getElementById('DoughnutTwo');
 
 		new Chart(ctx, {
@@ -29,16 +48,10 @@
 				}
 			},
 			data: {
-				labels: ['3mmc', 'mdma', 'ghb', 'xtc'],
+				labels: labelsghb,
 				datasets: [
 					{
-						data: [17, 12, 4, 9],
-						backgroundColor: [
-							'rgb(255, 99, 132)',
-							'rgb(75, 192, 192)',
-							'rgb(255, 205, 86)',
-							'rgb(201, 203, 207)'
-						]
+						data: relatedghb
 					}
 				]
 			}
@@ -66,7 +79,7 @@
 	}
 
 	article {
-    padding-bottom: 4em;
+		padding-bottom: 4em;
 		display: flex;
 		justify-content: flex-start;
 		flex-direction: column;

@@ -1,39 +1,44 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
-	import { data } from '../data/multitimeline';
+	import { keywords } from '../data/multitimeline';
+	import { weeks } from '../data/weeks';
 
-	console.log(data);
-
-	const labels = [];
-	const cleaning = data.forEach((x, i) => labels.push(x.week));
-	console.log(labels);
+	console.log(keywords);
 
 	onMount(async () => {
 		const ctx = document.getElementById('multiline');
 
+		/* Get value from Year input */
+		const year = document.querySelector('.years');
+		year.addEventListener('change', yearSelect);
+
+		function yearSelect() {
+			console.log(yearSelect.value);
+		}
+
 		new Chart(ctx, {
 			type: 'line',
 			data: {
-				labels: labels,
+				labels: weeks,
 				datasets: [
 					{
 						label: 'Cocaine',
-						data: data,
+						data: keywords,
 						parsing: {
 							yAxisKey: 'cocaine'
 						}
 					},
 					{
 						label: 'GHB',
-						data: data,
+						data: keywords,
 						parsing: {
 							yAxisKey: 'ghb'
 						}
 					},
 					{
 						label: 'XTC',
-						data: data,
+						data: keywords,
 						parsing: {
 							yAxisKey: 'xtc'
 						}
@@ -67,6 +72,12 @@
 
 <article>
 	<h3>Relative number of searches for drug keywords</h3>
+	<select class="years">
+		<option value="2022">2022</option>
+		<option value="2021">2021</option>
+		<option value="2020">2020</option>
+		<option value="2019">2019</option>
+	</select>
 	<div class="container">
 		<canvas id="multiline" />
 	</div>

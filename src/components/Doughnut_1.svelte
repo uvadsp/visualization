@@ -1,8 +1,27 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
+	import { cocaineRelated } from '../data/related/cocaine_related';
 
 	onMount(async () => {
+		let labelscocaine = [];
+		let relatedcocaine = [];
+
+		console.log(cocaineRelated);
+
+		let year = 2022;
+
+		for (let item of cocaineRelated[year]) {
+			labelscocaine.push(item.drug);
+		}
+
+		for (let item of cocaineRelated[year]) {
+			relatedcocaine.push(item.score);
+		}
+
+		console.log(labelscocaine);
+		console.log(relatedcocaine);
+
 		const ctx = document.getElementById('DoughnutOne');
 
 		new Chart(ctx, {
@@ -29,16 +48,10 @@
 				}
 			},
 			data: {
-				labels: ['3mmc', 'mdma', 'ghb', 'xtc'],
+				labels: labelscocaine,
 				datasets: [
 					{
-						data: [11, 16, 7, 3],
-						backgroundColor: [
-							'rgb(255, 99, 132)',
-							'rgb(75, 192, 192)',
-							'rgb(255, 205, 86)',
-							'rgb(201, 203, 207)'
-						]
+						data: relatedcocaine
 					}
 				]
 			}
