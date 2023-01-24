@@ -39,7 +39,7 @@
 		align-items: center;
 		border-radius: 0.5em;
 		background: white;
-		grid-column: 1 / 3;
+		grid-column: 1 / 5;
 		grid-row: 2 / 6;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}

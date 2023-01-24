@@ -1,5 +1,5 @@
 <article>
-	<h2>Block</h2>
+	<h2>Block-2</h2>
 </article>
 
 <style>
@@ -13,7 +13,7 @@
 		align-items: center;
 		border-radius: 0.2em;
 		background: white;
-		grid-column: 2 / 3;
+		grid-column: 4 / 8;
 		grid-row: 6 / 9;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}

@@ -4,13 +4,14 @@
 	import Chart from '../../components/Chart.svelte';
 	import Events from '../../components/Events.svelte';
 	import LineFilter from '../../components/Line-filter.svelte';
+	import Pie from '../../components/Pie.svelte';
 </script>
 
 <Nav />
 <main>
 	<LineFilter />
 	<Stacked />
-	<Chart />
+	<Pie />
 	<Events />
 </main>
 

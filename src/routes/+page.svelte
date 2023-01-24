@@ -1,7 +1,8 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Bubble from '../components/Bubble.svelte';
-	import Block from '../components/Block.svelte';
+	import Block_1 from '../components/Block-1.svelte';
+	import Block_2 from '../components/Block-2.svelte';
 	import Bar from '../components/Bar.svelte';
 	import Stats from '../components/Stats.svelte';
 	import Filter from '../components/Filter.svelte';
@@ -24,10 +25,10 @@
 		<List_3 />
 		<List_4 />
 	</ul>
-	<Bubble />
-	<Block />
-	<Stats />
 	<Bar />
+	<Bubble />
+	<Block_1 />
+	<Block_2 />
 </main>
 
 <style>
