@@ -103,8 +103,8 @@
 							yAxisKey: 'score',
 							xAxisKey: 'week'
 						},
-						backgroundColor: '#6cbcbd',
-						borderColor: '#6cbcbd'
+						backgroundColor: '#5baeec',
+						borderColor: '#5baeec'
 					},
 					{
 						label: 'News',
@@ -122,7 +122,9 @@
 						parsing: {
 							yAxisKey: 'score',
 							xAxisKey: 'week'
-						}
+						},
+						backgroundColor: '#eab83f',
+						borderColor: '#eab83f'
 					},
 					{
 						label: 'Events',
@@ -131,18 +133,39 @@
 						parsing: {
 							yAxisKey: 'score'
 						},
-						backgroundColor: 'rgba(54, 162, 235, 0.2)'
+						backgroundColor: ['rgba(64, 144, 211, 0.2)']
 					}
 				]
 			},
 			options: {
 				responsive: true,
 				maintainAspectRatio: false,
+				plugins: {
+					legend: {
+						labels: {
+							filter: (item) => {
+								return item.text != 'Events';
+							},
+							usePointStyle: true,
+							pointStyle: 'triangle'
+						}
+					}
+				},
 				scales: {
 					x: {
 						title: {
 							display: true,
 							text: 'Weeknumbers'
+						},
+						ticks: {
+							color: (c) => {
+								if (c['tick']['value'] === 16) return 'rgb(243, 188, 127)';
+								if (c['tick']['value'] === 27) return 'rgb(146, 210, 174)';
+								if (c['tick']['value'] === 29) return 'rgb(250, 237, 108)';
+								if (c['tick']['value'] === 32) return 'rgb(109, 64, 220)';
+								if (c['tick']['value'] === 50) return 'rgb(205, 91, 82)';
+								if (c['tick']['value'] === 51) return 'rgb(223, 165, 80)';
+							}
 						}
 					},
 					y: {

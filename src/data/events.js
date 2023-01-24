@@ -117,18 +117,18 @@ export const events = [
     "week": 29,
     "score": 0
   },
+  /* Pride Amsterdam */
   {
     "week": 30,
-    "score": 0
+    "score": 100
   },
   {
     "week": 31,
     "score": 0
   },
-  /* Gay Pride */
   {
     "week": 32,
-    "score": 100
+    "score": 0
   },
   {
     /* Lowlands Festival */

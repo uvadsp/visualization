@@ -1,6 +1,6 @@
 <script>
 	import Nav from '../../components/Nav.svelte';
-	import Summary from '../../components/Summary.svelte';
+	import Stacked from '../../components/Stacked.svelte';
 	import Chart from '../../components/Chart.svelte';
 	import Events from '../../components/Events.svelte';
 	import LineFilter from '../../components/Line-filter.svelte';
@@ -9,7 +9,7 @@
 <Nav />
 <main>
 	<LineFilter />
-	<Summary />
+	<Stacked />
 	<Chart />
 	<Events />
 </main>
