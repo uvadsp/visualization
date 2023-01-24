@@ -7,24 +7,38 @@
 		let labelsghb = [];
 		let relatedghb = [];
 
-		console.log(ghbRelated);
-
-		let year = 2020;
-
-		for (let item of ghbRelated[year]) {
+		for (let item of ghbRelated[2022]) {
 			labelsghb.push(item.drug);
 		}
 
-		for (let item of ghbRelated[year]) {
+		for (let item of ghbRelated[2022]) {
 			relatedghb.push(item.score);
 		}
 
-		console.log(labelsghb);
-		console.log(relatedghb);
+		const year = document.querySelector('.years');
+		/* Get value from Year input */
+		year.addEventListener('change', yearSelect);
+
+		function yearSelect() {
+			for (let item of ghbRelated[year.value]) {
+				labelsghb.push(item.drug);
+			}
+
+			for (let item of ghbRelated[year.value]) {
+				relatedghb.push(item.score);
+			}
+
+			myChart.data.labels = labelsghb;
+			myChart.data.datasets[0].data = relatedghb;
+			myChart.update();
+
+			labelsghb = [];
+			relatedghb = [];
+		}
 
 		const ctx = document.getElementById('DoughnutTwo');
 
-		new Chart(ctx, {
+		const myChart = new Chart(ctx, {
 			type: 'polarArea',
 			options: {
 				responsive: true,

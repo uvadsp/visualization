@@ -7,24 +7,38 @@
 		let labelscocaine = [];
 		let relatedcocaine = [];
 
-		console.log(cocaineRelated);
-
-		let year = 2022;
-
-		for (let item of cocaineRelated[year]) {
+		for (let item of cocaineRelated[2022]) {
 			labelscocaine.push(item.drug);
 		}
 
-		for (let item of cocaineRelated[year]) {
+		for (let item of cocaineRelated[2022]) {
 			relatedcocaine.push(item.score);
 		}
 
-		console.log(labelscocaine);
-		console.log(relatedcocaine);
+		const year = document.querySelector('.years');
+		/* Get value from Year input */
+		year.addEventListener('change', yearSelect);
+
+		function yearSelect() {
+			for (let item of cocaineRelated[year.value]) {
+				labelscocaine.push(item.drug);
+			}
+
+			for (let item of cocaineRelated[year.value]) {
+				relatedcocaine.push(item.score);
+			}
+
+			myChart.data.labels = labelscocaine;
+			myChart.data.datasets[0].data = relatedcocaine;
+			myChart.update();
+
+			labelscocaine = [];
+			relatedcocaine = [];
+		}
 
 		const ctx = document.getElementById('DoughnutOne');
 
-		new Chart(ctx, {
+		const myChart = new Chart(ctx, {
 			type: 'polarArea',
 			options: {
 				responsive: true,

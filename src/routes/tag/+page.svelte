@@ -1,7 +1,7 @@
 <script>
 	import Nav from '../../components/Nav.svelte';
 	import Line from '../../components/Line.svelte';
-	// import Multiline from '../../components/Multiline.svelte';
+	import Multiline from '../../components/Multiline.svelte';
 	import DoughnutOne from '../../components/Doughnut_1.svelte';
 	import DoughnutTwo from '../../components/Doughnut_2.svelte';
 	import DoughnutThree from '../../components/Doughnut_3.svelte';
@@ -13,7 +13,7 @@
 
 <Nav />
 <main>
-	<!-- <Multiline /> -->
+	<Multiline />
 	<DoughnutOne />
 	<DoughnutTwo />
 	<DoughnutThree />

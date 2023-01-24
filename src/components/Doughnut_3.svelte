@@ -7,24 +7,38 @@
 		let labelsxtc = [];
 		let relatedxtc = [];
 
-		console.log(xtcRelated);
-
-		let year = 2020;
-
-		for (let item of xtcRelated[year]) {
+		for (let item of xtcRelated[2022]) {
 			labelsxtc.push(item.drug);
 		}
 
-		for (let item of xtcRelated[year]) {
+		for (let item of xtcRelated[2022]) {
 			relatedxtc.push(item.score);
 		}
 
-		console.log(labelsxtc);
-		console.log(relatedxtc);
+		const year = document.querySelector('.years');
+		/* Get value from Year input */
+		year.addEventListener('change', yearSelect);
+
+		function yearSelect() {
+			for (let item of xtcRelated[year.value]) {
+				labelsxtc.push(item.drug);
+			}
+
+			for (let item of xtcRelated[year.value]) {
+				relatedxtc.push(item.score);
+			}
+
+			myChart.data.labels = labelsxtc;
+			myChart.data.datasets[0].data = relatedxtc;
+			myChart.update();
+
+			labelsxtc = [];
+			relatedxtc = [];
+		}
 
 		const ctx = document.getElementById('DoughnutThree');
 
-		new Chart(ctx, {
+		const myChart = new Chart(ctx, {
 			type: 'polarArea',
 			options: {
 				responsive: true,
