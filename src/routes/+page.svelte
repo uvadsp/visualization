@@ -1,35 +1,23 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-	import Bubble from '../components/Bubble.svelte';
-	import Block_1 from '../components/Block-1.svelte';
-	import Block_2 from '../components/Block-2.svelte';
-	import Bar from '../components/Bar.svelte';
-	import Stats from '../components/Stats.svelte';
-	import Filter from '../components/Filter.svelte';
-	import List_1 from '../components/List_1.svelte';
-	import List_2 from '../components/List_2.svelte';
-	import List_3 from '../components/List_3.svelte';
-	import List_4 from '../components/List_4.svelte';
+	import Description from '../components/Description.svelte';
+	import Chart from '../components/Chart.svelte';
+	import Events from '../components/Events.svelte';
+	import LineFilter from '../components/Line-filter.svelte';
+	import Pie from '../components/Pie.svelte';
 </script>
-
-<svelte:head>
-	<title>Dashboard</title>
-</svelte:head>
 
 <Nav />
 <main>
-	<ul>
-		<Filter />
-		<List_1 />
-		<List_2 />
-		<List_3 />
-		<List_4 />
-	</ul>
-	<Bar />
-	<Bubble />
-	<Block_1 />
-	<Block_2 />
+	<LineFilter />
+	<Description />
+	<Events />
+	<Pie />
 </main>
+
+<svelte:head>
+	<title>Popularity - Dashboard</title>
+</svelte:head>
 
 <style>
 	main {

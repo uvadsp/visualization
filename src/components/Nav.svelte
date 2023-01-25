@@ -10,8 +10,8 @@
 	<img src="/images/logo.svg" />
 
 	<ul>
-		<li class={path === '/' ? 'active' : ''}>
-			<a href="/">
+		<li class={path === '/overview' ? 'active' : ''}>
+			<a href="#">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -28,7 +28,7 @@
 				</svg>
 			</a>
 		</li>
-		<li class={path === '/line' ? 'active' : ''}>
+		<li class={path === '/' || path === '/ line' ? 'active' : ''}>
 			<a href="/line">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
