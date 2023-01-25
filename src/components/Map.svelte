@@ -6,6 +6,12 @@
 
 	/* Load datasets for events and drugs */
 	import { cocaineKingsday } from '../data/map/kingsday_cocaine';
+	import { ghbKingsday } from '../data/map/kingsday_ghb';
+	import { xtcKingsday } from '../data/map/kingsday_xtc';
+
+	import { cocainePride } from '../data/map/pride_cocaine';
+	import { ghbPride } from '../data/map/pride_ghb';
+	import { xtcPride } from '../data/map/pride_xtc';
 
 	onMount(async () => {
 		const ctx = document.getElementById('Map');
@@ -55,53 +61,156 @@
 				const year = document.querySelector('.years');
 				year.addEventListener('change', filterYear);
 
+				const drug = document.querySelector('.drug');
+				drug.addEventListener('change', filterYear);
+
+				const event = document.querySelector('.event');
+				event.addEventListener('change', filterYear);
+
+				console.log(`Initial drug: ${drug.value}`);
+				console.log(`Initial year: ${year.value}`);
+				console.log(`Initial event: ${event.value}`);
+
+				/* Initial filter value */
+
 				let data = cocaineKingsday[2019];
 
-				/* Default year features */
-				/* Buiten nederland */
-				cocaineKingsday[2019][0].feature = ni;
-				cocaineKingsday[2019][1].feature = nb;
-				cocaineKingsday[2019][2].feature = ut;
-				cocaineKingsday[2019][3].feature = zh;
-
-				/* Binnen nederland */
-				cocaineKingsday[2019][4].feature = nh;
-				cocaineKingsday[2019][5].feature = sa;
-				cocaineKingsday[2019][6].feature = st;
-				cocaineKingsday[2019][7].feature = bo;
-				cocaineKingsday[2019][8].feature = dr;
-				cocaineKingsday[2019][9].feature = fr;
-				cocaineKingsday[2019][10].feature = ge;
-				cocaineKingsday[2019][11].feature = gr;
-				cocaineKingsday[2019][12].feature = li;
-				cocaineKingsday[2019][13].feature = ov;
-				cocaineKingsday[2019][14].feature = fl;
-				cocaineKingsday[2019][15].feature = ze;
+				cocaineKingsday[year.value][0].feature = ni;
+				cocaineKingsday[year.value][1].feature = nb;
+				cocaineKingsday[year.value][2].feature = ut;
+				cocaineKingsday[year.value][3].feature = zh;
+				cocaineKingsday[year.value][4].feature = nh;
+				cocaineKingsday[year.value][5].feature = sa;
+				cocaineKingsday[year.value][6].feature = st;
+				cocaineKingsday[year.value][7].feature = bo;
+				cocaineKingsday[year.value][8].feature = dr;
+				cocaineKingsday[year.value][9].feature = fr;
+				cocaineKingsday[year.value][10].feature = ge;
+				cocaineKingsday[year.value][11].feature = gr;
+				cocaineKingsday[year.value][12].feature = li;
+				cocaineKingsday[year.value][13].feature = ov;
+				cocaineKingsday[year.value][14].feature = fl;
+				cocaineKingsday[year.value][15].feature = ze;
 
 				function filterYear() {
-					data = cocaineKingsday[year.value];
-					console.log(year.value);
+					if (event.value === 'kingsday') {
+						if (drug.value === 'cocaine') {
+							cocaineKingsday[year.value][0].feature = ni;
+							cocaineKingsday[year.value][1].feature = nb;
+							cocaineKingsday[year.value][2].feature = ut;
+							cocaineKingsday[year.value][3].feature = zh;
+							cocaineKingsday[year.value][4].feature = nh;
+							cocaineKingsday[year.value][5].feature = sa;
+							cocaineKingsday[year.value][6].feature = st;
+							cocaineKingsday[year.value][7].feature = bo;
+							cocaineKingsday[year.value][8].feature = dr;
+							cocaineKingsday[year.value][9].feature = fr;
+							cocaineKingsday[year.value][10].feature = ge;
+							cocaineKingsday[year.value][11].feature = gr;
+							cocaineKingsday[year.value][12].feature = li;
+							cocaineKingsday[year.value][13].feature = ov;
+							cocaineKingsday[year.value][14].feature = fl;
+							cocaineKingsday[year.value][15].feature = ze;
+							data = cocaineKingsday[year.value];
+						} else if (drug.value === 'ghb') {
+							ghbKingsday[year.value][0].feature = ni;
+							ghbKingsday[year.value][1].feature = nb;
+							ghbKingsday[year.value][2].feature = ut;
+							ghbKingsday[year.value][3].feature = zh;
+							ghbKingsday[year.value][4].feature = nh;
+							ghbKingsday[year.value][5].feature = sa;
+							ghbKingsday[year.value][6].feature = st;
+							ghbKingsday[year.value][7].feature = bo;
+							ghbKingsday[year.value][8].feature = dr;
+							ghbKingsday[year.value][9].feature = fr;
+							ghbKingsday[year.value][10].feature = ge;
+							ghbKingsday[year.value][11].feature = gr;
+							ghbKingsday[year.value][12].feature = li;
+							ghbKingsday[year.value][13].feature = ov;
+							ghbKingsday[year.value][14].feature = fl;
+							ghbKingsday[year.value][15].feature = ze;
+							data = ghbKingsday[year.value];
+						} else {
+							xtcKingsday[year.value][0].feature = ni;
+							xtcKingsday[year.value][1].feature = nb;
+							xtcKingsday[year.value][2].feature = ut;
+							xtcKingsday[year.value][3].feature = zh;
+							xtcKingsday[year.value][4].feature = nh;
+							xtcKingsday[year.value][5].feature = sa;
+							xtcKingsday[year.value][6].feature = st;
+							xtcKingsday[year.value][7].feature = bo;
+							xtcKingsday[year.value][8].feature = dr;
+							xtcKingsday[year.value][9].feature = fr;
+							xtcKingsday[year.value][10].feature = ge;
+							xtcKingsday[year.value][11].feature = gr;
+							xtcKingsday[year.value][12].feature = li;
+							xtcKingsday[year.value][13].feature = ov;
+							xtcKingsday[year.value][14].feature = fl;
+							xtcKingsday[year.value][15].feature = ze;
+							data = xtcKingsday[year.value];
+						}
+					} else if (event.value === 'pride') {
+						if (drug.value === 'cocaine') {
+							cocainePride[year.value][0].feature = ni;
+							cocainePride[year.value][1].feature = nb;
+							cocainePride[year.value][2].feature = ut;
+							cocainePride[year.value][3].feature = zh;
+							cocainePride[year.value][4].feature = nh;
+							cocainePride[year.value][5].feature = sa;
+							cocainePride[year.value][6].feature = st;
+							cocainePride[year.value][7].feature = bo;
+							cocainePride[year.value][8].feature = dr;
+							cocainePride[year.value][9].feature = fr;
+							cocainePride[year.value][10].feature = ge;
+							cocainePride[year.value][11].feature = gr;
+							cocainePride[year.value][12].feature = li;
+							cocainePride[year.value][13].feature = ov;
+							cocainePride[year.value][14].feature = fl;
+							cocainePride[year.value][15].feature = ze;
+							data = cocainePride[year.value];
+						} else if (drug.value === 'ghb') {
+							ghbPride[year.value][0].feature = ni;
+							ghbPride[year.value][1].feature = nb;
+							ghbPride[year.value][2].feature = ut;
+							ghbPride[year.value][3].feature = zh;
+							ghbPride[year.value][4].feature = nh;
+							ghbPride[year.value][5].feature = sa;
+							ghbPride[year.value][6].feature = st;
+							ghbPride[year.value][7].feature = bo;
+							ghbPride[year.value][8].feature = dr;
+							ghbPride[year.value][9].feature = fr;
+							ghbPride[year.value][10].feature = ge;
+							ghbPride[year.value][11].feature = gr;
+							ghbPride[year.value][12].feature = li;
+							ghbPride[year.value][13].feature = ov;
+							ghbPride[year.value][14].feature = fl;
+							ghbPride[year.value][15].feature = ze;
+							data = ghbPride[year.value];
+						} else {
+							xtcPride[year.value][0].feature = ni;
+							xtcPride[year.value][1].feature = nb;
+							xtcPride[year.value][2].feature = ut;
+							xtcPride[year.value][3].feature = zh;
+							xtcPride[year.value][4].feature = nh;
+							xtcPride[year.value][5].feature = sa;
+							xtcPride[year.value][6].feature = st;
+							xtcPride[year.value][7].feature = bo;
+							xtcPride[year.value][8].feature = dr;
+							xtcPride[year.value][9].feature = fr;
+							xtcPride[year.value][10].feature = ge;
+							xtcPride[year.value][11].feature = gr;
+							xtcPride[year.value][12].feature = li;
+							xtcPride[year.value][13].feature = ov;
+							xtcPride[year.value][14].feature = fl;
+							xtcPride[year.value][15].feature = ze;
+							data = xtcPride[year.value];
+						}
+					}
+
+					console.log(`Updated drug: ${drug.value}`);
+					console.log(`Updated year: ${year.value}`);
+					console.log(`Updated event: ${event.value}`);
 					console.log(data);
-
-					/* Buiten nederland */
-					cocaineKingsday[year.value][0].feature = ni;
-					cocaineKingsday[year.value][1].feature = nb;
-					cocaineKingsday[year.value][2].feature = ut;
-					cocaineKingsday[year.value][3].feature = zh;
-
-					/* Binnen nederland */
-					cocaineKingsday[year.value][4].feature = nh;
-					cocaineKingsday[year.value][5].feature = sa;
-					cocaineKingsday[year.value][6].feature = st;
-					cocaineKingsday[year.value][7].feature = bo;
-					cocaineKingsday[year.value][8].feature = dr;
-					cocaineKingsday[year.value][9].feature = fr;
-					cocaineKingsday[year.value][10].feature = ge;
-					cocaineKingsday[year.value][11].feature = gr;
-					cocaineKingsday[year.value][12].feature = li;
-					cocaineKingsday[year.value][13].feature = ov;
-					cocaineKingsday[year.value][14].feature = fl;
-					cocaineKingsday[year.value][15].feature = ze;
 
 					myChart.data.datasets[0].data = data;
 					myChart.update();
@@ -149,20 +258,16 @@
 <ul>
 	<select class="years">
 		<option value="2018">2018</option>
-		<option value="2019">2019</option>
+		<option selected="selected" value="2019">2019</option>
 	</select>
 	<select class="event">
-		<option value="king">Kingsday</option>
+		<option selected="selected" value="kingsday">Kingsday</option>
 		<option value="pride">Pride</option>
-		<option value="lowlands">Lowlands</option>
-		<option value="cross">Zwarte Cross</option>
-		<option value="christmas">Christmas</option>
-		<option value="new">New Year's Eve</option>
 	</select>
 	<select class="drug">
-		<option value="cocaine">cocaine</option>
+		<option selected="selected" value="cocaine">cocaine</option>
 		<option value="ghb">ghb</option>
-		<option value="ghb">xtc</option>
+		<option value="xtc">xtc</option>
 	</select>
 </ul>
 <canvas id="Map" />
