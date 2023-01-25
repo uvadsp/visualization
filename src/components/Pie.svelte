@@ -26,7 +26,7 @@
 </script>
 
 <article>
-	<h3>Distribution of sources per year</h3>
+	<h3>Distribution of sources:</h3>
 	<div class="container">
 		<canvas id="pie" />
 	</div>

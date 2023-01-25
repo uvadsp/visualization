@@ -91,6 +91,80 @@
 			drugSelect();
 		}
 
+		const kingsday = document.querySelector('.kingsday');
+		const lowlands = document.querySelector('.lowlands');
+		const cross = document.querySelector('.cross');
+		const pride = document.querySelector('.pride');
+		const ade = document.querySelector('.ade');
+		const christmas = document.querySelector('.christmas');
+		const eve = document.querySelector('.eve');
+
+		function highlight(
+			number,
+			color,
+			number1,
+			number2,
+			number3,
+			number4,
+			number5,
+			number6,
+			color1
+		) {
+			myChart.data.datasets[3].backgroundColor[number] = color;
+			myChart.data.datasets[3].backgroundColor[number1] = color1;
+			myChart.data.datasets[3].backgroundColor[number2] = color1;
+			myChart.data.datasets[3].backgroundColor[number3] = color1;
+			myChart.data.datasets[3].backgroundColor[number4] = color1;
+			myChart.data.datasets[3].backgroundColor[number5] = color1;
+			myChart.data.datasets[3].backgroundColor[number6] = color1;
+			myChart.update();
+		}
+
+		kingsday.addEventListener('click', function () {
+			console.log('kingsday');
+			highlight(
+				'16',
+				'rgb(243, 188, 127)',
+				'27',
+				'29',
+				'32',
+				'41',
+				'50',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
+		});
+
+		lowlands.addEventListener('click', function () {
+			console.log('lowlands');
+			highlight('27', 'rgba(126, 212, 171, 1)');
+		});
+
+		cross.addEventListener('click', function () {
+			console.log('cross');
+			highlight('29', 'rgba(120, 111, 167, 1)');
+		});
+
+		pride.addEventListener('click', function () {
+			console.log('pride');
+			highlight('32', 'rgba(116, 62, 228, 1)');
+		});
+
+		ade.addEventListener('click', function () {
+			console.log('ade');
+			highlight('41', 'rgba(254, 250, 83, 1)');
+		});
+
+		christmas.addEventListener('click', function () {
+			console.log('christmas');
+			highlight('50', 'rgba(221, 82, 76, 1)');
+		});
+
+		eve.addEventListener('click', function () {
+			console.log('eve');
+			highlight('51', 'rgba(233, 162, 59, 1)');
+		});
+
 		const myChart = new Chart(ctx, {
 			type: 'line',
 			data: {
@@ -129,11 +203,64 @@
 					{
 						label: 'Events',
 						data: events,
+						backgroundColor: [
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 1)',
+							'rgb(243, 188, 127, 0.4)',
+							'rgb(243, 188, 127, 0.4)'
+						],
 						type: 'bar',
 						parsing: {
 							yAxisKey: 'score'
-						},
-						backgroundColor: ['rgba(64, 144, 211, 0.2)']
+						}
 					}
 				]
 			},
@@ -180,6 +307,8 @@
 				}
 			}
 		});
+
+		console.log(myChart);
 	});
 </script>
 
