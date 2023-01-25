@@ -33,6 +33,6 @@
 	h1 {
 		grid-column: 1 / 8;
 		grid-row: 1 / 2;
-		color: rgb(0, 0, 245);
+		color: #3d8ad0;
 	}
 </style>

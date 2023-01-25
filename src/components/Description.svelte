@@ -285,7 +285,7 @@
 		height: 19.1em;
 	}
 	h3 {
-		color: blue;
+		color: #5188cb;
 		font-weight: 500;
 	}
 

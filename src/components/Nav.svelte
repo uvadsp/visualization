@@ -17,7 +17,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#b8b6c9"
+					stroke="#4B5563"
 					class="w-6 h-6"
 				>
 					<path
@@ -35,7 +35,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#b8b6c9"
+					stroke="#4B5563"
 					class="w-6 h-6"
 				>
 					<path
@@ -53,7 +53,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#b8b6c9"
+					stroke="#4B5563"
 					class="w-6 h-6"
 				>
 					<path
@@ -71,7 +71,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#b8b6c9"
+					stroke="#4B5563"
 					class="w-6 h-6"
 				>
 					<path
@@ -89,7 +89,7 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
-					stroke="#b8b6c9"
+					stroke="#4B5563"
 					class="w-6 h-6"
 				>
 					<path
@@ -174,17 +174,27 @@
 		width: 6px;
 		height: 40px;
 		transform: translateX(-1.7em) translateY(-0.4em);
-		background: #8574f7;
+		background: #1b447e;
 		border-radius: 2px;
 	}
 
 	nav .active svg {
-		stroke: #8574f7;
+		stroke: #1b447e;
+		opacity: 1;
 	}
 
 	nav div {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	nav svg {
+		opacity: 0.5;
+		transition: all 250ms ease;
+	}
+
+	nav svg:hover {
+		opacity: 1;
 	}
 </style>

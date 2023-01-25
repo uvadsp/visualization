@@ -132,7 +132,7 @@
 
 	.active {
 		opacity: 1;
-		color: blue;
+		color: #5188cb;
 	}
 
 	article {

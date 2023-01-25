@@ -33,7 +33,7 @@
 
 <style>
 	h3 {
-		color: blue;
+		color: #3d8ad0;
 		font-weight: 500;
 		padding: 1em 1.6em;
 		margin: 0;
@@ -104,11 +104,11 @@
 		background: rgb(243, 245, 247);
 		border-radius: 12px;
 		padding: 0.2em 1em;
-		color: blue;
+		color: #3d8ad0;
 	}
 
 	.downloads {
-		background: blue;
+		background: #3d8ad0;
 		border-radius: 3px;
 		padding: 0.5em 1em;
 		color: white;

@@ -45,10 +45,15 @@
 				maintainAspectRatio: false,
 				plugins: {
 					legend: {
+						labels: {
+							usePointStyle: true,
+							pointStyle: 'rectRot'
+						},
 						display: true,
 						position: 'bottom'
 					}
 				},
+
 				scales: {
 					r: {
 						pointLabels: {
@@ -83,7 +88,7 @@
 <style>
 	h3 {
 		font-weight: 500;
-		color: #1433dd;
+		color: #5188cb;
 		margin-left: 2em;
 	}
 

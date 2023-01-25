@@ -104,6 +104,14 @@
 				},
 				parsing: {
 					xAxisKey: 'week'
+				},
+				plugins: {
+					legend: {
+						labels: {
+							usePointStyle: true,
+							pointStyle: 'rectRot'
+						}
+					}
 				}
 			}
 		});
@@ -127,7 +135,7 @@
 <style>
 	h3 {
 		font-weight: 500;
-		color: #1433dd;
+		color: #3d8ad0;
 	}
 	.container {
 		width: 100%;
