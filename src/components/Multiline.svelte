@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
+	import { bind } from '../../src/nice-select2.js';
 
 	import { weeks } from '../data/weeks';
 
@@ -10,6 +11,8 @@
 	import { cocaineTrends } from '../data/trends/cocaine_trends';
 
 	onMount(async () => {
+		bind(document.querySelector('.years'));
+
 		const ctx = document.getElementById('multiline');
 		const year = document.querySelector('.years');
 		/* Get value from Year input */
@@ -141,5 +144,9 @@
 		grid-column: 1 / 7;
 		grid-row: 1 / 5;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
+	}
+
+	select {
+		display: none;
 	}
 </style>

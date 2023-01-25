@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import Nav from '../../components/Nav.svelte';
 	import Line from '../../components/Line.svelte';
 	import Map from '../../components/Map.svelte';
@@ -12,6 +13,7 @@
 <svelte:head>
 	<title>Location - Dashboard</title>
 	<link rel="icon" type="image/svg" href="/images/logo.svg" />
+	<link rel="stylesheet" href="css/nice-select2.css" />
 </svelte:head>
 
 <style>

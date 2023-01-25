@@ -162,7 +162,7 @@
 		margin-top: 1em;
 	}
 
-	nav img:first-of-type {
+	nav img:nth-child(1) {
 		width: 2.3em;
 		box-shadow: none;
 	}

@@ -17,6 +17,7 @@
 
 <svelte:head>
 	<title>Popularity - Dashboard</title>
+	<link rel="stylesheet" href="css/nice-select2.css" />
 </svelte:head>
 
 <style>
@@ -40,5 +41,9 @@
 		display: flex;
 		width: 100%;
 		justify-content: space-between;
+	}
+
+	select {
+		display: none;
 	}
 </style>

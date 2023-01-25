@@ -26,6 +26,7 @@
   "dependencies": {
     "chart.js": "^4.1.2",
     "chartjs-chart-geo": "^4.1.2",
+    "nice-select2": "^2.1.0",
     "svelte": "^3.55.0"
   }
 }

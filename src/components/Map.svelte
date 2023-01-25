@@ -3,6 +3,7 @@
 	import Chart from 'chart.js/auto';
 	import { ChoroplethChart } from 'chartjs-chart-geo';
 	import { feature } from 'topojson-client';
+	import { bind } from '../../src/nice-select2.js';
 
 	/* Load datasets for events and drugs */
 	import { cocaineKingsday } from '../data/map/kingsday_cocaine';
@@ -15,6 +16,10 @@
 
 	onMount(async () => {
 		const ctx = document.getElementById('Map');
+
+		bind(document.querySelector('.years'));
+		bind(document.querySelector('.event'));
+		bind(document.querySelector('.drug'));
 
 		async function load(url) {
 			const res = await fetch(
@@ -256,7 +261,7 @@
 </script>
 
 <ul>
-	<select class="years">
+	<select id="years" class="years">
 		<option value="2018">2018</option>
 		<option selected="selected" value="2019">2019</option>
 	</select>
@@ -265,9 +270,9 @@
 		<option value="pride">Pride</option>
 	</select>
 	<select class="drug">
-		<option selected="selected" value="cocaine">cocaine</option>
-		<option value="ghb">ghb</option>
-		<option value="xtc">xtc</option>
+		<option selected="selected" value="cocaine">Cocaine</option>
+		<option value="ghb">GHB</option>
+		<option value="xtc">XTC</option>
 	</select>
 </ul>
 <canvas id="Map" />
@@ -279,5 +284,10 @@
 
 	ul {
 		position: absolute;
+		display: flex;
+	}
+
+	select {
+		display: none;
 	}
 </style>

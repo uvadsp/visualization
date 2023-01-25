@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import Chart from 'chart.js/auto';
+	import { bind } from '../../src/nice-select2.js';
 
 	/* Load weeks dataset for consistent x-axis */
 	import { weeks } from '../data/weeks';
@@ -22,6 +23,9 @@
 
 	onMount(async () => {
 		const ctx = document.getElementById('Line');
+
+		bind(document.querySelector('.years'));
+		bind(document.querySelector('.drugs'));
 
 		/* Get value from Year input */
 		const year = document.querySelector('.years');
@@ -334,6 +338,10 @@
 	h3 {
 		font-weight: 500;
 		color: #1433dd;
+	}
+
+	div {
+		display: flex;
 	}
 	.container {
 		width: 100%;

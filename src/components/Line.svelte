@@ -6,6 +6,7 @@
 	import { tweets } from '../data/popularity/cocaine_tweets';
 	import { events } from '../data/events';
 
+
 	const labels = [];
 	const cleaning = trends.forEach((x, i) => labels.push(x.week));
 	console.log(labels);
@@ -16,6 +17,8 @@
 
 	onMount(async () => {
 		const ctx = document.getElementById('Line');
+
+		bind(document.querySelector('.years'));
 
 		const drug = document.querySelector('.drugs');
 		drug.addEventListener('change', drugSelect);
