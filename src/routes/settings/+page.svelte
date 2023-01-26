@@ -3,6 +3,7 @@
 	import Trends from '../../components/Downloads_trends.svelte';
 	import Tweets from '../../components/Downloads_twitter.svelte';
 	import News from '../../components/Downloads_news.svelte';
+	import Related from '../../components/Downloads_related.svelte';
 </script>
 
 <Nav />
@@ -12,6 +13,7 @@
 		<p>Download the raw datasets in different formats (.cvs, .json) used in the visualizations.</p>
 	</header>
 	<Trends />
+	<Related />
 	<Tweets />
 	<News />
 </main>
@@ -37,5 +39,9 @@
 		grid-column: 1 / 8;
 		grid-row: 1 / 2;
 		color: #3d8ad0;
+	}
+
+	p {
+		color: #4b5565;
 	}
 </style>

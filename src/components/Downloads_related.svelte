@@ -11,21 +11,21 @@
 		<li>
 			<p>Name</p>
 			<p>Timescale</p>
-			<p>Download</p>
+			<p>File</p>
 		</li>
 		<li>
 			<p>Relative values for Cocaine</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for GHB</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for XTC</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 	</ul>
@@ -33,7 +33,7 @@
 
 <style>
 	h3 {
-		color: #3d8ad0;
+		color: #5188cb;
 		font-weight: 500;
 		padding: 1em 1.6em;
 		margin: 0;
@@ -70,7 +70,7 @@
 	}
 
 	ul li:not(:first-child) p:nth-child(2) {
-		margin-right: 12em;
+		margin-right: 9em;
 	}
 
 	ul li:not(:last-of-type) {
@@ -95,8 +95,8 @@
 		border-radius: 0.2em;
 		color: rgb(73, 85, 103);
 		background: white;
-		grid-column: 1 / 4;
-		grid-row: 5 / 8;
+		grid-column: 4 / 8;
+		grid-row: 2 / 3;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
 
@@ -112,5 +112,11 @@
 		border-radius: 3px;
 		padding: 0.5em 1em;
 		color: white;
+		cursor: pointer;
+		transition: 250ms ease;
+	}
+
+	.downloads:hover {
+		background: #1e5b94;
 	}
 </style>

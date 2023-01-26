@@ -1,31 +1,48 @@
 <article>
 	<h3>
-		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-			><path
-				d="M6 12C6 15.3137 8.68629 18 12 18C14.6124 18 16.8349 16.3304 17.6586 14H12V10H21.8047V14H21.8C20.8734 18.5645 16.8379 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C15.445 2 18.4831 3.742 20.2815 6.39318L17.0039 8.68815C15.9296 7.06812 14.0895 6 12 6C8.68629 6 6 8.68629 6 12Z"
-				fill="rgba(75, 85, 101, 0.5)"
-			/></svg
-		>NOS News Datasets
+		<svg
+			width="424"
+			height="143"
+			viewBox="0 0 405 143"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path
+				d="M119.434 139.629V3.465H83.25V40.621C83.25 51.707 83.449 69.801 84.422 75.828C81.5 70.183 69.442 52.098 63.219 43.734L33.266 3.465H0V139.629H36.184V98.004C36.184 86.914 35.989 68.824 35.016 62.793C38.516 68.824 50.184 86.332 56.215 94.699L88.699 139.629H119.434Z"
+				fill="#A6AAB1"
+			/>
+			<path
+				d="M404.891 97.809C404.891 72.329 389.719 61.825 355.485 53.653C337.977 49.567 333.126 47.235 333.126 42.173C333.126 37.31 335.845 33.81 347.126 33.81C360.931 33.81 372.985 38.482 385.056 46.65L403.345 17.084C388.938 6.965 372.211 1.328 349.07 1.328C316.187 1.328 295.379 18.64 295.379 44.312C295.379 71.546 311.141 80.496 344.008 88.078C362.289 92.363 367.156 95.473 367.156 100.527C367.156 106.949 362.875 109.285 349.453 109.285C336.812 109.285 319.5 102.473 309.578 95.676L291.297 125.231C305.496 134.567 326.703 141.77 348.672 141.77C381.359 141.77 404.891 128.926 404.891 97.809Z"
+				fill="#A6AAB1"
+			/>
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				d="M174.758 71.258C174.758 51.953 190.406 36.301 209.711 36.301C229.02 36.301 244.672 51.953 244.672 71.258C244.672 90.567 229.02 106.215 209.711 106.215C190.406 106.215 174.758 90.566 174.758 71.258ZM138.453 71.258C138.453 31.902 170.355 0 209.711 0C249.067 0 280.973 31.902 280.973 71.258C280.973 110.614 249.067 142.52 209.711 142.52C170.355 142.52 138.453 110.613 138.453 71.258Z"
+				fill="#A6AAB1"
+			/>
+		</svg>
+		News Datasets
 	</h3>
 	<ul>
 		<li>
 			<p>Name</p>
 			<p>Timescale</p>
-			<p>Download</p>
+			<p>File</p>
 		</li>
 		<li>
 			<p>Relative values for Cocaine</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for GHB</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for XTC</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 	</ul>
@@ -33,7 +50,7 @@
 
 <style>
 	h3 {
-		color: #3d8ad0;
+		color: #5188cb;
 		font-weight: 500;
 		padding: 1em 1.6em;
 		margin: 0;
@@ -43,6 +60,8 @@
 
 	h3 svg {
 		margin-right: 1em;
+		width: 2em;
+		height: 1em;
 	}
 
 	ul li:first-of-type {
@@ -70,7 +89,7 @@
 	}
 
 	ul li:not(:first-child) p:nth-child(2) {
-		margin-right: 12em;
+		margin-right: 9em;
 	}
 
 	ul li:not(:last-of-type) {
@@ -96,7 +115,7 @@
 		color: rgb(73, 85, 103);
 		background: white;
 		grid-column: 1 / 4;
-		grid-row: 6 / 9;
+		grid-row: 3 / 9;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
 
@@ -112,5 +131,15 @@
 		border-radius: 3px;
 		padding: 0.5em 1em;
 		color: white;
+		cursor: pointer;
+		transition: 250ms ease;
+	}
+
+	.downloads:hover {
+		background: #1e5b94;
+	}
+
+	a {
+		text-decoration: none;
 	}
 </style>

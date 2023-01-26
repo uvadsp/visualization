@@ -5,27 +5,28 @@
 				d="M6 12C6 15.3137 8.68629 18 12 18C14.6124 18 16.8349 16.3304 17.6586 14H12V10H21.8047V14H21.8C20.8734 18.5645 16.8379 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C15.445 2 18.4831 3.742 20.2815 6.39318L17.0039 8.68815C15.9296 7.06812 14.0895 6 12 6C8.68629 6 6 8.68629 6 12Z"
 				fill="rgba(75, 85, 101, 0.5)"
 			/></svg
-		>Google Trends Datasets
+		>Trends Datasets
 	</h3>
 	<ul>
 		<li>
 			<p>Name</p>
 			<p>Timescale</p>
-			<p>Download</p>
+			<p>File</p>
 		</li>
 		<li>
 			<p>Relative values for Cocaine</p>
-			<p class="years">Years</p>
-			<p class="downloads">Download</p>
+			<p class="years">years</p>
+			<a href="/downloads/relative_trends_values_cocaine.csv" download class="downloads">Download</a
+			>
 		</li>
 		<li>
 			<p>Relative values for GHB</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for XTC</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 	</ul>
@@ -33,7 +34,7 @@
 
 <style>
 	h3 {
-		color: blue;
+		color: #5188cb;
 		font-weight: 500;
 		padding: 1em 1.6em;
 		margin: 0;
@@ -43,6 +44,7 @@
 
 	h3 svg {
 		margin-right: 1em;
+		width: 1em;
 	}
 
 	ul li:first-of-type {
@@ -70,7 +72,7 @@
 	}
 
 	ul li:not(:first-child) p:nth-child(2) {
-		margin-right: 12em;
+		margin-right: 9em;
 	}
 
 	ul li:not(:last-of-type) {
@@ -96,7 +98,7 @@
 		color: rgb(73, 85, 103);
 		background: white;
 		grid-column: 1 / 4;
-		grid-row: 2 / 5;
+		grid-row: 2 / 3;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
 
@@ -104,13 +106,23 @@
 		background: rgb(243, 245, 247);
 		border-radius: 12px;
 		padding: 0.2em 1em;
-		color: blue;
+		color: #3d8ad0;
 	}
 
 	.downloads {
-		background: blue;
+		background: #3d8ad0;
 		border-radius: 3px;
 		padding: 0.5em 1em;
 		color: white;
+		cursor: pointer;
+		transition: 250ms ease;
+	}
+
+	.downloads:hover {
+		background: #1e5b94;
+	}
+
+	a {
+		text-decoration: none;
 	}
 </style>

@@ -1,31 +1,32 @@
 <article>
 	<h3>
-		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-			><path
-				d="M6 12C6 15.3137 8.68629 18 12 18C14.6124 18 16.8349 16.3304 17.6586 14H12V10H21.8047V14H21.8C20.8734 18.5645 16.8379 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C15.445 2 18.4831 3.742 20.2815 6.39318L17.0039 8.68815C15.9296 7.06812 14.0895 6 12 6C8.68629 6 6 8.68629 6 12Z"
-				fill="rgba(75, 85, 101, 0.5)"
-			/></svg
-		>Twitter Datasets
+		<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 248 204">
+			<path
+				fill="#a6aab1"
+				d="M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"
+			/>
+		</svg>
+		Tweets Datasets
 	</h3>
 	<ul>
 		<li>
 			<p>Name</p>
 			<p>Timescale</p>
-			<p>Download</p>
+			<p>File</p>
 		</li>
 		<li>
 			<p>Relative values for Cocaine</p>
-			<p class="years">Years</p>
-			<p class="downloads">Download</p>
+			<p class="years">years</p>
+			<a href="/downloads/relative_tweet_values_cocaine.csv" download class="downloads">Download</a>
 		</li>
 		<li>
 			<p>Relative values for GHB</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 		<li>
 			<p>Relative values for XTC</p>
-			<p class="years">Years</p>
+			<p class="years">years</p>
 			<p class="downloads">Download</p>
 		</li>
 	</ul>
@@ -33,7 +34,7 @@
 
 <style>
 	h3 {
-		color: blue;
+		color: #5188cb;
 		font-weight: 500;
 		padding: 1em 1.6em;
 		margin: 0;
@@ -43,6 +44,7 @@
 
 	h3 svg {
 		margin-right: 1em;
+		width: 1em;
 	}
 
 	ul li:first-of-type {
@@ -70,7 +72,7 @@
 	}
 
 	ul li:not(:first-child) p:nth-child(2) {
-		margin-right: 12em;
+		margin-right: 9em;
 	}
 
 	ul li:not(:last-of-type) {
@@ -96,7 +98,7 @@
 		color: rgb(73, 85, 103);
 		background: white;
 		grid-column: 4 / 8;
-		grid-row: 2 / 5;
+		grid-row: 3 / 9;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
 
@@ -104,13 +106,23 @@
 		background: rgb(243, 245, 247);
 		border-radius: 12px;
 		padding: 0.2em 1em;
-		color: blue;
+		color: #3d8ad0;
 	}
 
 	.downloads {
-		background: blue;
+		background: #3d8ad0;
 		border-radius: 3px;
 		padding: 0.5em 1em;
 		color: white;
+		cursor: pointer;
+		transition: 250ms ease;
+	}
+
+	.downloads:hover {
+		background: #1e5b94;
+	}
+
+	a {
+		text-decoration: none;
 	}
 </style>
