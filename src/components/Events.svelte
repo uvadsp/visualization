@@ -136,7 +136,7 @@
 		cursor: pointer;
 	}
 
-	.active {
+	li.active {
 		opacity: 1;
 	}
 

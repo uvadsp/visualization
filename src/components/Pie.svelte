@@ -49,7 +49,7 @@
 		flex-direction: column;
 		border-radius: 0.2em;
 		background: white;
-		grid-column: 6 / 7;
+		grid-column: 4 / 7;
 		grid-row: 6 / 9;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}

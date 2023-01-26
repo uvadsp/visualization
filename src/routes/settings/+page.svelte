@@ -7,7 +7,10 @@
 
 <Nav />
 <main>
-	<h1>Settings</h1>
+	<header>
+		<h1>Settings</h1>
+		<p>Download the raw datasets in different formats (.cvs, .json) used in the visualizations.</p>
+	</header>
 	<Trends />
 	<Tweets />
 	<News />
@@ -30,7 +33,7 @@
 		font-family: 'Inter', sans-serif;
 	}
 
-	h1 {
+	header {
 		grid-column: 1 / 8;
 		grid-row: 1 / 2;
 		color: #3d8ad0;

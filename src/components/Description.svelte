@@ -98,183 +98,91 @@
 		<p>
 			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
 			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
+			nationwide vrijmarkt at which the Dutch sell their used items.
 		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
+		<h4>Date(s):</h4>
+		<p>27 April (26 April if 27 April is a Sunday)</p>
+		<h4>Most popular drug</h4>
+		<p>GHB</p>
 	</div>
-	<div />
-
-	<div class="container hidden prideEvent">
-		<h3>Event description: Pride</h3>
-		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
-		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
-	</div>
-	<div />
-
-	<div class="container hidden crossEvent">
-		<h3>Event description: De Zwarte Cross</h3>
-		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
-		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
-	</div>
-	<div />
 
 	<div class="container hidden lowlandsEvent">
 		<h3>Event description: Lowlands</h3>
 		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
+			A Campingflight to Lowlands Paradise (commonly called Lowlands or Lowlands Festival), is an
+			annual three-day music and performing arts festival, held in the Netherlands. The festival is
+			held 68 kilometres (42 mi) east of Amsterdam in Biddinghuizen.
 		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
+		<h4>Date(s):</h4>
+		<p>Fri, Aug 18 - Sun, Aug 20</p>
+		<h4>Most popular drug</h4>
+		<p>Cocaine</p>
 	</div>
-	<div />
 
-	<div class="container hidden christmasEvent">
-		<h3>Event description: Christmas</h3>
+	<div class="container hidden crossEvent">
+		<h3>Event description: Zwarte Cross</h3>
 		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
+			The Zwarte Cross Festival is the largest paid festival in the Netherlands, and the largest
+			motor event in the world. The festival is a combination of motorcross, music, theatre and
+			stunts. It is a reference to the illegal motocross races in the 1960s.
 		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
+		<h4>Date(s):</h4>
+		<p>Thu, Jul 20 - Sun, Jul 23</p>
+		<h4>Most popular drug</h4>
+		<p>Cocaine</p>
 	</div>
-	<div />
 
-	<div class="container hidden eveEvent">
-		<h3>Event description: New Years Eve</h3>
+	<div class="container hidden prideEvent">
+		<h3>Event description: Pride Amsterdam</h3>
 		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
+			Amsterdam Pride, Amsterdam Gay Pride or Pride Amsterdam is a citywide queer-festival held
+			annually at the center of Amsterdam during the first weekend of August. Amsterdam Pride was
+			first organized in 1996, meant as a festival to celebrate freedom.
 		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
+		<h4>Date(s):</h4>
+		<p>31 Jul - 8 Aug.</p>
+		<h4>Most popular drug</h4>
+		<p>XTC</p>
 	</div>
-	<div />
 
 	<div class="container hidden adeEvent">
 		<h3>Event description: ADE</h3>
 		<p>
-			Koningsdag or King's Day is a national holiday in the Kingdom of the Netherlands. Celebrated
-			on 27 April, the date marks the birth of King Willem-Alexander. Koningsdag is known for its
-			nationwide vrijmarkt ("free market"), at which the Dutch sell their used items.
+			The Amsterdam Dance Event (ADE) is a five-day electronic music conference and festival held
+			annually in mid-October. ADE attracts over 400,000 people from all over the world to the city,
+			making Amsterdam one of the busiest clubbing cities in the world.
 		</p>
-		<h4>Date(s): 27 April (26 April if 27 April is a Sunday)</h4>
-		<h4>Drug popularity:</h4>
-		<ul>
-			<li>
-				<span>GHB:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-			<li>
-				<span>XTC:</span>
-				<div class="border">
-					<div class="fill" />
-				</div>
-			</li>
-		</ul>
+		<h4>Date(s):</h4>
+		<p>Oct 18 – Oct 22, 2023</p>
+		<h4>Most popular drug</h4>
+		<p>XTC</p>
 	</div>
-	<div />
-	<img src="/images/kingsday.jpg" />
+
+	<div class="container hidden christmasEvent">
+		<h3>Event description: Christmas</h3>
+		<p>
+			Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on
+			December 25 as a religious and cultural celebration among billions of people around the world.
+			The traditional Christmas narrative recounted in the New Testament.
+		</p>
+		<h4>Date(s):</h4>
+		<p>Dec 25</p>
+		<h4>Most popular drug</h4>
+		<p>Cocaine</p>
+	</div>
+
+	<div class="container hidden eveEvent">
+		<h3>Event description: New Year's Eve</h3>
+		<p>
+			In many countries, New Year's Eve is celebrated with dancing, eating, drinking, and watching
+			or lighting fireworks. Some Christians attend a watchnight service. The celebrations generally
+			go on past midnight into New Year's Day, 1 January.
+		</p>
+		<h4>Date(s):</h4>
+		<p>Dec 31</p>
+		<h4>Most popular drug</h4>
+		<p>XTC</p>
+	</div>
 </article>
 
 <style>
@@ -297,7 +205,7 @@
 	}
 
 	.container p {
-		width: 30em;
+		width: 26em;
 		margin-right: 6em;
 		font-size: 0.8em;
 	}
@@ -345,7 +253,7 @@
 		padding: 0em 2em 2em 2em;
 		border-radius: 0.2em;
 		background: white;
-		grid-column: 2 / 6;
+		grid-column: 2 / 4;
 		grid-row: 6 / 9;
 		box-shadow: 0px 10px 15px -3px #d3d0e5;
 	}
@@ -356,5 +264,10 @@
 
 	.show {
 		display: block;
+	}
+
+	h4 {
+		font-weight: 500;
+		color: #5188cb;
 	}
 </style>

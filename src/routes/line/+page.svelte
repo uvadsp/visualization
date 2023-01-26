@@ -4,7 +4,7 @@
 	import Chart from '../../components/Chart.svelte';
 	import Events from '../../components/Events.svelte';
 	import LineFilter from '../../components/Line-filter.svelte';
-	import Pie from '../../components/Pie.svelte';
+	import Relative from '../../components/Relative.svelte';
 </script>
 
 <Nav />
@@ -12,7 +12,7 @@
 	<LineFilter />
 	<Description />
 	<Events />
-	<Pie />
+	<Relative />
 </main>
 
 <svelte:head>

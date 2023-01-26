@@ -14,6 +14,8 @@
 	import { ghbPride } from '../data/map/pride_ghb';
 	import { xtcPride } from '../data/map/pride_xtc';
 
+	// import { cocaineAde } from '../data/map/ade_cocaine';
+
 	onMount(async () => {
 		const ctx = document.getElementById('Map');
 
@@ -260,26 +262,31 @@
 	});
 </script>
 
-<ul>
-	<select id="years" class="years">
-		<option value="2018">2018</option>
-		<option selected="selected" value="2019">2019</option>
-	</select>
-	<select class="event">
-		<option selected="selected" value="kingsday">Kingsday</option>
-		<option value="pride">Pride</option>
-	</select>
-	<select class="drug">
-		<option selected="selected" value="cocaine">Cocaine</option>
-		<option value="ghb">GHB</option>
-		<option value="xtc">XTC</option>
-	</select>
-</ul>
+<section>
+	<h1>Searches per region</h1>
+	<p>Shows the Google Keywords searches per region (provinces) on a relative (0, 100) scale.</p>
+	<ul class="filter">
+		<select id="years" class="years">
+			<option value="2018">2018</option>
+			<option selected="selected" value="2019">2019</option>
+		</select>
+		<select class="event">
+			<option selected="selected" value="kingsday">Kingsday</option>
+			<option value="pride">Pride</option>
+		</select>
+		<select class="drug">
+			<option selected="selected" value="cocaine">Cocaine</option>
+			<option value="ghb">GHB</option>
+			<option value="xtc">XTC</option>
+		</select>
+	</ul>
+</section>
 <canvas id="Map" />
 
 <style>
 	canvas {
-		transform: translateY(5em);
+		transform: translateX(-30em) translateY(5em);
+		z-index: -1;
 	}
 
 	ul {
@@ -289,5 +296,18 @@
 
 	select {
 		display: none;
+	}
+
+	section {
+		width: 25em;
+		line-height: 1.6;
+	}
+
+	.filter {
+		padding: 0;
+	}
+
+	h1 {
+		color: #5188cb;
 	}
 </style>
