@@ -19,6 +19,11 @@
 	import { xtcNews } from '../data/years/xtc_news';
 	import { xtcTrends } from '../data/years/xtc_trends';
 
+	/* Load datasets for XTC per year */
+	import { ghbTweets } from '../data/years/ghb_tweets';
+	import { ghbNews } from '../data/years/ghb_news';
+	import { ghbTrends } from '../data/years/ghb_trends';
+
 	/* Load datasets for ghb per year */
 
 	onMount(async () => {
@@ -79,6 +84,18 @@
 
 				for (let item of cocaineTrends[year.value]) {
 					scoresTrends.push(item.score);
+				}
+			} else {
+				for (let item of ghbTweets[year.value]) {
+					scoresTweets.push(item.score);
+				}
+
+				for (let item of ghbTrends[year.value]) {
+					scoresTrends.push(item.score);
+				}
+
+				for (let item of ghbNews[year.value]) {
+					scoresNews.push(item.score);
 				}
 			}
 			myChart.data.datasets[0].data = scoresTweets;
@@ -320,11 +337,14 @@
 	<h3>Interest over time per year for a specific drug</h3>
 	<div>
 		<select class="years">
-			<option value="2022">2022</option>
+			<option selected="selected" value="2022">2022</option>
 			<option value="2021">2021</option>
+			<option value="2020">2020</option>
+			<option value="2019">2019</option>
+			<option value="2018">2018</option>
 		</select>
 		<select class="drugs">
-			<option value="cocaine">Cocaine</option>
+			<option selected="selected" value="cocaine">Cocaine</option>
 			<option value="ghb">GHB</option>
 			<option value="xtc">XTC</option>
 		</select>
