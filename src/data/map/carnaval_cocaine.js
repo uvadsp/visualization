@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const kingsdayxtc = {
+export const carnavalcocaine = {
   "2022": [
     {
       year: 2022,
@@ -25,22 +25,22 @@ export const kingsdayxtc = {
     {
       year: 2022,
       feature: nb,
-      score: 50
+      score: 89
     },
     {
       year: 2022,
       feature: ut,
-      score: 85
+      score: 34
     },
     {
       year: 2022,
       feature: zh,
-      score: 80
+      score: 37
     },
     {
       year: 2022,
       feature: nh,
-      score: 87
+      score: 53
     },
     {
       year: 2022,
@@ -60,42 +60,42 @@ export const kingsdayxtc = {
     {
       year: 2022,
       feature: dr,
-      score: 100
-    },
-    {
-      year: 2022,
-      feature: fr,
-      score: 43
-    },
-    {
-      year: 2022,
-      feature: ge,
       score: 64
     },
     {
       year: 2022,
+      feature: fr,
+      score: 64
+    },
+    {
+      year: 2022,
+      feature: ge,
+      score: 15
+    },
+    {
+      year: 2022,
       feature: gr,
-      score: 39
+      score: 0
     },
     {
       year: 2022,
       feature: li,
-      score: 60
+      score: 35
     },
     {
       year: 2022,
       feature: ov,
-      score: 37
+      score: 35
     },
     {
       year: 2022,
       feature: fl,
-      score: 26
+      score: 100
     },
     {
       year: 2022,
       feature: ze,
-      score: 54
+      score: 94
     },
   ],
   "2021": [
@@ -107,22 +107,22 @@ export const kingsdayxtc = {
     {
       year: 2021,
       feature: nb,
-      score: 37
+      score: 18
     },
     {
       year: 2021,
       feature: ut,
-      score: 83
+      score: 16
     },
     {
       year: 2021,
       feature: zh,
-      score: 38
+      score: 24
     },
     {
       year: 2021,
       feature: nh,
-      score: 38
+      score: 26
     },
     {
       year: 2021,
@@ -142,32 +142,32 @@ export const kingsdayxtc = {
     {
       year: 2021,
       feature: dr,
-      score: 59
+      score: 0
     },
     {
       year: 2021,
       feature: fr,
-      score: 27
+      score: 0
     },
     {
       year: 2021,
       feature: ge,
-      score: 28
+      score: 8
     },
     {
       year: 2021,
       feature: gr,
-      score: 100
+      score: 35
     },
     {
       year: 2021,
       feature: li,
-      score: 43
+      score: 0
     },
     {
       year: 2021,
       feature: ov,
-      score: 54
+      score: 14
     },
     {
       year: 2021,
@@ -177,7 +177,7 @@ export const kingsdayxtc = {
     {
       year: 2021,
       feature: ze,
-      score: 0
+      score: 100
     },
   ],
   "2020": [
@@ -189,22 +189,22 @@ export const kingsdayxtc = {
     {
       year: 2020,
       feature: nb,
-      score: 66
+      score: 61
     },
     {
       year: 2020,
       feature: ut,
-      score: 50
+      score: 40
     },
     {
       year: 2020,
       feature: zh,
-      score: 32
+      score: 59
     },
     {
       year: 2020,
       feature: nh,
-      score: 72
+      score: 39
     },
     {
       year: 2020,
@@ -224,27 +224,27 @@ export const kingsdayxtc = {
     {
       year: 2020,
       feature: dr,
-      score: 100
+      score: 0
     },
     {
       year: 2020,
       feature: fr,
-      score: 35
+      score: 100
     },
     {
       year: 2020,
       feature: ge,
-      score: 36
+      score: 63
     },
     {
       year: 2020,
       feature: gr,
-      score: 60
+      score: 0
     },
     {
       year: 2020,
       feature: li,
-      score: 41
+      score: 28
     },
     {
       year: 2020,
@@ -254,12 +254,12 @@ export const kingsdayxtc = {
     {
       year: 2020,
       feature: fl,
-      score: 43
+      score: 52
     },
     {
       year: 2020,
       feature: ze,
-      score: 0
+      score: 98
     },
   ],
   "2019": [
@@ -271,22 +271,22 @@ export const kingsdayxtc = {
     {
       year: 2019,
       feature: nb,
-      score: 54
+      score: 46
     },
     {
       year: 2019,
       feature: ut,
-      score: 93
+      score: 26
     },
     {
       year: 2019,
       feature: zh,
-      score: 58
+      score: 44
     },
     {
       year: 2019,
       feature: nh,
-      score: 55
+      score: 29
     },
     {
       year: 2019,
@@ -306,32 +306,32 @@ export const kingsdayxtc = {
     {
       year: 2019,
       feature: dr,
-      score: 70
-    },
-    {
-      year: 2019,
-      feature: fr,
-      score: 49
-    },
-    {
-      year: 2019,
-      feature: ge,
-      score: 51
-    },
-    {
-      year: 2019,
-      feature: gr,
       score: 100
     },
     {
       year: 2019,
+      feature: fr,
+      score: 62
+    },
+    {
+      year: 2019,
+      feature: ge,
+      score: 54
+    },
+    {
+      year: 2019,
+      feature: gr,
+      score: 0
+    },
+    {
+      year: 2019,
       feature: li,
-      score: 34
+      score: 47
     },
     {
       year: 2019,
       feature: ov,
-      score: 29
+      score: 36
     },
     {
       year: 2019,
@@ -345,6 +345,7 @@ export const kingsdayxtc = {
     },
   ],
   "2018": [
+
     {
       year: 2018,
       feature: ni,
@@ -353,22 +354,22 @@ export const kingsdayxtc = {
     {
       year: 2018,
       feature: nb,
-      score: 25
+      score: 53
     },
     {
       year: 2018,
       feature: ut,
-      score: 50
+      score: 37
     },
     {
       year: 2018,
       feature: zh,
-      score: 28
+      score: 60
     },
     {
       year: 2018,
       feature: nh,
-      score: 21
+      score: 44
     },
     {
       year: 2018,
@@ -388,7 +389,7 @@ export const kingsdayxtc = {
     {
       year: 2018,
       feature: dr,
-      score: 32
+      score: 85
     },
     {
       year: 2018,
@@ -398,17 +399,17 @@ export const kingsdayxtc = {
     {
       year: 2018,
       feature: ge,
-      score: 40
+      score: 38
     },
     {
       year: 2018,
       feature: gr,
-      score: 0
+      score: 49
     },
     {
       year: 2018,
       feature: li,
-      score: 20
+      score: 63
     },
     {
       year: 2018,

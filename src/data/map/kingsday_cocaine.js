@@ -15,137 +15,415 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const cocaineKingsday = {
-  "2018": [
+export const kingsdaycocaine = {
+  "2022": [
     {
-      value: 0,
-      feature: ni
+      year: 2022,
+      feature: ni,
+      score: 0
     },
     {
-      value: 1,
-      feature: nb
+      year: 2022,
+      feature: nb,
+      score: 37
     },
     {
-      value: 2,
-      feature: ut
+      year: 2022,
+      feature: ut,
+      score: 38
     },
     {
-      value: 3,
-      feature: zh
+      year: 2022,
+      feature: zh,
+      score: 36
     },
     {
-      value: 4,
-      feature: nh
+      year: 2022,
+      feature: nh,
+      score: 49
     },
     {
-      value: 0,
-      feature: sa
+      year: 2022,
+      feature: sa,
+      score: 0
     },
     {
-      value: 0,
-      feature: st
+      year: 2022,
+      feature: st,
+      score: 0
     },
     {
-      value: 0,
-      feature: bo
+      year: 2022,
+      feature: bo,
+      score: 0
     },
     {
-      value: 5,
-      feature: dr
+      year: 2022,
+      feature: dr,
+      score: 73
     },
     {
-      value: 6,
-      feature: fr
+      year: 2022,
+      feature: fr,
+      score: 50
     },
     {
-      value: 7,
-      feature: ge
+      year: 2022,
+      feature: ge,
+      score: 30
     },
     {
-      value: 8,
-      feature: gr
+      year: 2022,
+      feature: gr,
+      score: 100
     },
     {
-      value: 9,
-      feature: li
+      year: 2022,
+      feature: li,
+      score: 33
     },
     {
-      value: 10,
-      feature: ov
+      year: 2022,
+      feature: ov,
+      score: 61
     },
     {
-      value: 11,
-      feature: fl
+      year: 2022,
+      feature: fl,
+      score: 45
     },
     {
-      value: 12,
-      feature: ze
-    }
+      year: 2022,
+      feature: ze,
+      score: 27
+    },
+  ],
+  "2021": [
+    {
+      year: 2021,
+      feature: ni,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: nb,
+      score: 88
+    },
+    {
+      year: 2021,
+      feature: ut,
+      score: 87
+    },
+    {
+      year: 2021,
+      feature: zh,
+      score: 71
+    },
+    {
+      year: 2021,
+      feature: nh,
+      score: 94
+    },
+    {
+      year: 2021,
+      feature: sa,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: st,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: bo,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: dr,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: fr,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: ge,
+      score: 36
+    },
+    {
+      year: 2021,
+      feature: gr,
+      score: 92
+    },
+    {
+      year: 2021,
+      feature: li,
+      score: 100
+    },
+    {
+      year: 2021,
+      feature: ov,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: fl,
+      score: 0
+    },
+    {
+      year: 2021,
+      feature: ze,
+      score: 0
+    },
+  ],
+  "2020": [
+    {
+      year: 2020,
+      feature: ni,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: nb,
+      score: 36
+    },
+    {
+      year: 2020,
+      feature: ut,
+      score: 59
+    },
+    {
+      year: 2020,
+      feature: zh,
+      score: 31
+    },
+    {
+      year: 2020,
+      feature: nh,
+      score: 40
+    },
+    {
+      year: 2020,
+      feature: sa,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: st,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: bo,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: dr,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: fr,
+      score: 0
+    },
+    {
+      year: 2020,
+      feature: ge,
+      score: 20
+    },
+    {
+      year: 2020,
+      feature: gr,
+      score: 26
+    },
+    {
+      year: 2020,
+      feature: li,
+      score: 38
+    },
+    {
+      year: 2020,
+      feature: ov,
+      score: 23
+    },
+    {
+      year: 2020,
+      feature: fl,
+      score: 51
+    },
+    {
+      year: 2020,
+      feature: ze,
+      score: 100
+    },
   ],
   "2019": [
     {
-      value: 0,
-      feature: ni
+      year: 2019,
+      feature: ni,
+      score: 0
     },
     {
-      value: 32,
-      feature: nb
+      year: 2019,
+      feature: nb,
+      score: 21
     },
     {
-      value: 2,
-      feature: ut
+      year: 2019,
+      feature: ut,
+      score: 0
     },
     {
-      value: 3,
-      feature: zh
+      year: 2019,
+      feature: zh,
+      score: 21
     },
     {
-      value: 4,
-      feature: nh
+      year: 2019,
+      feature: nh,
+      score: 21
     },
     {
-      value: 0,
-      feature: sa
+      year: 2019,
+      feature: sa,
+      score: 0
     },
     {
-      value: 0,
-      feature: st
+      year: 2019,
+      feature: st,
+      score: 0
     },
     {
-      value: 0,
-      feature: bo
+      year: 2019,
+      feature: bo,
+      score: 0
     },
     {
-      value: 48,
-      feature: dr
+      year: 2019,
+      feature: dr,
+      score: 78
     },
     {
-      value: 6,
-      feature: fr
+      year: 2019,
+      feature: fr,
+      score: 34
     },
     {
-      value: 7,
-      feature: ge
+      year: 2019,
+      feature: ge,
+      score: 12
     },
     {
-      value: 8,
-      feature: gr
+      year: 2019,
+      feature: gr,
+      score: 24
     },
     {
-      value: 63,
-      feature: li
+      year: 2019,
+      feature: li,
+      score: 0
     },
     {
-      value: 10,
-      feature: ov
+      year: 2019,
+      feature: ov,
+      score: 16
     },
     {
-      value: 11,
-      feature: fl
+      year: 2019,
+      feature: fl,
+      score: 100
     },
     {
-      value: 12,
-      feature: ze
+      year: 2019,
+      feature: ze,
+      score: 26
+    },
+  ],
+  "2018": [
+    {
+      year: 2018,
+      feature: ni,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: nb,
+      score: 30
+    },
+    {
+      year: 2018,
+      feature: ut,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: zh,
+      score: 21
+    },
+    {
+      year: 2018,
+      feature: nh,
+      score: 22
+    },
+    {
+      year: 2018,
+      feature: sa,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: st,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: bo,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: dr,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: fr,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: ge,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: gr,
+      score: 100
+    },
+    {
+      year: 2018,
+      feature: li,
+      score: 13
+    },
+    {
+      year: 2018,
+      feature: ov,
+      score: 35
+    },
+    {
+      year: 2018,
+      feature: fl,
+      score: 0
+    },
+    {
+      year: 2018,
+      feature: ze,
+      score: 39
     }
   ]
 }

@@ -18,331 +18,331 @@ const ze = '';
 export const adeCocaine = {
   "2018": [
     {
-      feature: "ni",
+      feature: ni,
       value: 0
     },
     {
-      feature: "nb",
+      feature: nb,
       value: 100
     },
     {
-      feature: "ut",
+      feature: ut,
       value: 88
     },
     {
-      feature: "zh",
+      feature: zh,
       value: 92
     },
     {
-      feature: "nh",
+      feature: nh,
       value: 81
     },
     {
-      feature: "sa",
+      feature: sa,
       value: 0
     },
     {
-      feature: "st",
+      feature: st,
       value: 0
     },
     {
-      feature: "bo",
+      feature: bo,
       value: 0
     },
     {
-      feature: "dr",
+      feature: dr,
       value: 0
     },
     {
-      feature: "fr",
+      feature: fr,
       value: 92
     },
     {
-      feature: "ge",
+      feature: ge,
       value: 62
     },
     {
-      feature: "gr",
+      feature: gr,
       value: 81
     },
     {
-      feature: "li",
+      feature: li,
       value: 50
     },
     {
-      feature: "ov",
+      feature: ov,
       value: 97
     },
     {
-      feature: "fl",
+      feature: fl,
       value: 0
     },
     {
-      feature: "ze",
+      feature: ze,
       value: 0
     }
   ],
   "2019": [
     {
-      feature: "ni",
+      feature: ni,
       value: 0
     },
     {
-      feature: "nb",
+      feature: nb,
       value: 18
     },
     {
-      feature: "ut",
+      feature: ut,
       value: 26
     },
     {
-      feature: "zh",
+      feature: zh,
       value: 48
     },
     {
-      feature: "nh",
+      feature: nh,
       value: 32
     },
     {
-      feature: "sa",
+      feature: sa,
       value: 0
     },
     {
-      feature: "st",
+      feature: st,
       value: 0
     },
     {
-      feature: "bo",
+      feature: bo,
       value: 0
     },
     {
-      feature: "dr",
+      feature: dr,
       value: 44
     },
     {
-      feature: "fr",
+      feature: fr,
       value: 29
     },
     {
-      feature: "ge",
+      feature: ge,
       value: 13
     },
     {
-      feature: "gr",
+      feature: gr,
       value: 28
     },
     {
-      feature: "li",
+      feature: li,
       value: 29
     },
     {
-      feature: "ov",
+      feature: ov,
       value: 0
     },
     {
-      feature: "fl",
+      feature: fl,
       value: 96
     },
     {
-      feature: "ze",
+      feature: ze,
       value: 100
     },
   ],
   "2020": [
     {
-      feature: "ni",
+      feature: ni,
       value: 0
     },
     {
-      feature: "nb",
+      feature: nb,
       value: 42
     },
     {
-      feature: "ut",
+      feature: ut,
       value: 23
     },
     {
-      feature: "zh",
+      feature: zh,
       value: 36
     },
     {
-      feature: "nh",
+      feature: nh,
       value: 35
     },
     {
-      feature: "sa",
+      feature: sa,
       value: 0
     },
     {
-      feature: "st",
+      feature: st,
       value: 0
     },
     {
-      feature: "bo",
+      feature: bo,
       value: 0
     },
     {
-      feature: "dr",
+      feature: dr,
       value: 100
     },
     {
-      feature: "fr",
+      feature: fr,
       value: 47
     },
     {
-      feature: "ge",
+      feature: ge,
       value: 30
     },
     {
-      feature: "gr",
+      feature: gr,
       value: 46
     },
     {
-      feature: "li",
+      feature: li,
       value: 82
     },
     {
-      feature: "ov",
+      feature: ov,
       value: 52
     },
     {
-      feature: "fl",
+      feature: fl,
       value: 0
     },
     {
-      feature: "ze",
+      feature: ze,
       value: 0
     },
   ],
   "2021": [
     {
-      feature: "ni",
+      feature: ni,
       value: 0
     },
     {
-      feature: "nb",
+      feature: nb,
       value: 49
     },
     {
-      feature: "ut",
+      feature: ut,
       value: 17
     },
     {
-      feature: "zh",
+      feature: zh,
       value: 44
     },
     {
-      feature: "nh",
+      feature: nh,
       value: 49
     },
     {
-      feature: "sa",
+      feature: sa,
       value: 0
     },
     {
-      feature: "st",
+      feature: st,
       value: 0
     },
     {
-      feature: "bo",
+      feature: bo,
       value: 0
     },
     {
-      feature: "dr",
+      feature: dr,
       value: 56
     },
     {
-      feature: "fr",
+      feature: fr,
       value: 0
     },
     {
-      feature: "ge",
+      feature: ge,
       value: 27
     },
     {
-      feature: "gr",
+      feature: gr,
       value: 100
     },
     {
-      feature: "li",
+      feature: li,
       value: 36
     },
     {
-      feature: "ov",
+      feature: ov,
       value: 26
     },
     {
-      feature: "fl",
+      feature: fl,
       value: 0
     },
     {
-      feature: "ze",
+      feature: ze,
       value: 65
     },
   ],
   "2022": [
     {
-      feature: "ni",
+      feature: ni,
       value: 0
     },
     {
-      feature: "nb",
+      feature: nb,
       value: 40
     },
     {
-      feature: "ut",
+      feature: ut,
       value: 78
     },
     {
-      feature: "zh",
+      feature: zh,
       value: 21
     },
     {
-      feature: "nh",
+      feature: nh,
       value: 84
     },
     {
-      feature: "sa",
+      feature: sa,
       value: 0
     },
     {
-      feature: "st",
+      feature: st,
       value: 0
     },
     {
-      feature: "bo",
+      feature: bo,
       value: 0
     },
     {
-      feature: "dr",
+      feature: dr,
       value: 100
     },
     {
-      feature: "fr",
+      feature: fr,
       value: 61
     },
     {
-      feature: "ge",
+      feature: ge,
       value: 76
     },
     {
-      feature: "gr",
+      feature: gr,
       value: 0
     },
     {
-      feature: "li",
+      feature: li,
       value: 0
     },
     {
-      feature: "ov",
+      feature: ov,
       value: 97
     },
     {
-      feature: "fl",
+      feature: fl,
       value: 0
     },
     {
-      feature: "ze",
+      feature: ze,
       value: 0
     },
   ],

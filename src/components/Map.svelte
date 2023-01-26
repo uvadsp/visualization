@@ -267,12 +267,20 @@
 	<p>Shows the Google Keywords searches per region (provinces) on a relative (0, 100) scale.</p>
 	<ul class="filter">
 		<select id="years" class="years">
+			<option selected="selected" value="2022">2022</option>
+			<option value="2021">2021</option>
+			<option value="2020">2020</option>
+			<option value="2019">2019</option>
 			<option value="2018">2018</option>
-			<option selected="selected" value="2019">2019</option>
 		</select>
 		<select class="event">
 			<option selected="selected" value="kingsday">Kingsday</option>
+			<option value="lowlands">Lowlands</option>
+			<option value="cross">Zwarte Cross</option>
 			<option value="pride">Pride</option>
+			<option value="ade">ADE</option>
+			<option value="christmas">Christmas</option>
+			<option value="eve">New Year's Eve</option>
 		</select>
 		<select class="drug">
 			<option selected="selected" value="cocaine">Cocaine</option>
@@ -286,7 +294,6 @@
 <style>
 	canvas {
 		transform: translateX(-30em) translateY(5em);
-		z-index: -1;
 	}
 
 	ul {
@@ -301,6 +308,7 @@
 	section {
 		width: 25em;
 		line-height: 1.6;
+		z-index: 1;
 	}
 
 	.filter {
