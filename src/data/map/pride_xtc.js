@@ -20,410 +20,410 @@ export const xtcPride = {
     {
       year: 2022,
       feature: ni,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: nb,
-      score: 65
+      value: 65
     },
     {
       year: 2022,
       feature: ut,
-      score: 47
+      value: 47
     },
     {
       year: 2022,
       feature: zh,
-      score: 67
+      value: 67
     },
     {
       year: 2022,
       feature: nh,
-      score: 87
+      value: 87
     },
     {
       year: 2022,
       feature: sa,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: st,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: bo,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: dr,
-      score: 72
+      value: 72
     },
     {
       year: 2022,
       feature: fr,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: ge,
-      score: 54
+      value: 54
     },
     {
       year: 2022,
       feature: gr,
-      score: 100
+      value: 100
     },
     {
       year: 2022,
       feature: li,
-      score: 0
+      value: 0
     },
     {
       year: 2022,
       feature: ov,
-      score: 37
+      value: 37
     },
     {
       year: 2022,
       feature: fl,
-      score: 63
+      value: 63
     },
     {
       year: 2022,
       feature: ze,
-      score: 0
+      value: 0
     },
   ],
   "2021": [
     {
       year: 2021,
       feature: ni,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: nb,
-      score: 35
+      value: 35
     },
     {
       year: 2021,
       feature: ut,
-      score: 100
+      value: 100
     },
     {
       year: 2021,
       feature: zh,
-      score: 37
+      value: 37
     },
     {
       year: 2021,
       feature: nh,
-      score: 34
+      value: 34
     },
     {
       year: 2021,
       feature: sa,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: st,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: bo,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: dr,
-      score: 44
+      value: 44
     },
     {
       year: 2021,
       feature: fr,
-      score: 41
+      value: 41
     },
     {
       year: 2021,
       feature: ge,
-      score: 44
+      value: 44
     },
     {
       year: 2021,
       feature: gr,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: li,
-      score: 27
+      value: 27
     },
     {
       year: 2021,
       feature: ov,
-      score: 58
+      value: 58
     },
     {
       year: 2021,
       feature: fl,
-      score: 0
+      value: 0
     },
     {
       year: 2021,
       feature: ze,
-      score: 0
+      value: 0
     },
   ],
   "2020": [
     {
       year: 2020,
       feature: ni,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: nb,
-      score: 22
+      value: 22
     },
     {
       year: 2020,
       feature: ut,
-      score: 14
+      value: 14
     },
     {
       year: 2020,
       feature: zh,
-      score: 20
+      value: 20
     },
     {
       year: 2020,
       feature: nh,
-      score: 17
+      value: 17
     },
     {
       year: 2020,
       feature: sa,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: st,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: bo,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: dr,
-      score: 23
+      value: 23
     },
     {
       year: 2020,
       feature: fr,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: ge,
-      score: 25
+      value: 25
     },
     {
       year: 2020,
       feature: gr,
-      score: 100
+      value: 100
     },
     {
       year: 2020,
       feature: li,
-      score: 39
+      value: 39
     },
     {
       year: 2020,
       feature: ov,
-      score: 27
+      value: 27
     },
     {
       year: 2020,
       feature: fl,
-      score: 0
+      value: 0
     },
     {
       year: 2020,
       feature: ze,
-      score: 63
+      value: 63
     },
   ],
   "2019": [
     {
       year: 2019,
       feature: ni,
-      score: 0
+      value: 0
     },
     {
       year: 2019,
       feature: nb,
-      score: 51
+      value: 51
     },
     {
       year: 2019,
       feature: ut,
-      score: 27
+      value: 27
     },
     {
       year: 2019,
       feature: zh,
-      score: 32
+      value: 32
     },
     {
       year: 2019,
       feature: nh,
-      score: 20
+      value: 20
     },
     {
       year: 2019,
       feature: sa,
-      score: 0
+      value: 0
     },
     {
       year: 2019,
       feature: st,
-      score: 0
+      value: 0
     },
     {
       year: 2019,
       feature: bo,
-      score: 0
+      value: 0
     },
     {
       year: 2019,
       feature: dr,
-      score: 34
+      value: 34
     },
     {
       year: 2019,
       feature: fr,
-      score: 41
+      value: 41
     },
     {
       year: 2019,
       feature: ge,
-      score: 30
+      value: 30
     },
     {
       year: 2019,
       feature: gr,
-      score: 21
+      value: 21
     },
     {
       year: 2019,
       feature: li,
-      score: 16
+      value: 16
     },
     {
       year: 2019,
       feature: ov,
-      score: 36
+      value: 36
     },
     {
       year: 2019,
       feature: fl,
-      score: 0
+      value: 0
     },
     {
       year: 2019,
       feature: ze,
-      score: 100
+      value: 100
     },
   ],
   "2018": [
     {
       year: 2018,
       feature: ni,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: nb,
-      score: 65
+      value: 65
     },
     {
       year: 2018,
       feature: ut,
-      score: 48
+      value: 48
     },
     {
       year: 2018,
       feature: zh,
-      score: 69
+      value: 69
     },
     {
       year: 2018,
       feature: nh,
-      score: 54
+      value: 54
     },
     {
       year: 2018,
       feature: sa,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: st,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: bo,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: dr,
-      score: 100
+      value: 100
     },
     {
       year: 2018,
       feature: fr,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: ge,
-      score: 43
+      value: 43
     },
     {
       year: 2018,
       feature: gr,
-      score: 82
+      value: 82
     },
     {
       year: 2018,
       feature: li,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: ov,
-      score: 31
+      value: 31
     },
     {
       year: 2018,
       feature: fl,
-      score: 0
+      value: 0
     },
     {
       year: 2018,
       feature: ze,
-      score: 0
+      value: 0
     }
   ]
 }
