@@ -85,7 +85,7 @@
 </script>
 
 <article>
-	<h3>Highlight:</h3>
+	<h3>Select event  </h3>
 	<ul class="eventsList">
 		<li class="kingsday">
 			<span />Kings Day

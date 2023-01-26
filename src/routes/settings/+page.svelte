@@ -19,7 +19,9 @@
 </main>
 
 <svelte:head>
-	<title>Popularity - Dashboard</title>
+	<title>Settings - Dashboard</title>
+	<link rel="icon" type="image/svg" href="/images/logo.svg" />
+	<link rel="icon" href="/images/logo.png" type="image/png" />
 </svelte:head>
 
 <style>

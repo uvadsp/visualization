@@ -119,7 +119,7 @@
 	}
 
 	.downloads:hover {
-		background: #1e5b94;
+		background: #26447a;
 	}
 
 	a {

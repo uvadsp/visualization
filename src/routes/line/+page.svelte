@@ -18,6 +18,8 @@
 <svelte:head>
 	<title>Popularity - Dashboard</title>
 	<link rel="stylesheet" href="css/nice-select2.css" />
+	<link rel="icon" type="image/svg" href="/images/logo.svg" />
+	<link rel="icon" href="/images/logo.png" type="image/png" />
 </svelte:head>
 
 <style>

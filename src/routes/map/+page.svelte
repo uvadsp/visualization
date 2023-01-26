@@ -13,6 +13,7 @@
 <svelte:head>
 	<title>Location - Dashboard</title>
 	<link rel="icon" type="image/svg" href="/images/logo.svg" />
+	<link rel="icon" href="/images/logo.png" type="image/png" />
 	<link rel="stylesheet" href="css/nice-select2.css" />
 </svelte:head>
 
