@@ -85,26 +85,32 @@
 </script>
 
 <article>
+	<h3>Highlight:</h3>
 	<ul class="eventsList">
-		<li class="kingsday active">
-			<span style="background-color: rgba(253, 186, 116, 1);" />Kings Day
+		<li class="kingsday">
+			<span />Kings Day
 		</li>
-		<li class="lowlands"><span style="background-color: rgba(126, 212, 171, 1);" />Lowlands</li>
-		<li class="cross"><span style="background-color: rgba(120, 111, 167, 1);" />Zwarte Cross</li>
-		<li class="pride"><span style="background-color: rgba(116, 62, 228, 1);" />Pride Adam</li>
+		<li class="lowlands"><span />Lowlands</li>
+		<li class="cross"><span />Zwarte Cross</li>
+		<li class="pride"><span />Pride Adam</li>
 		<li class="ade">
-			<span style="background-color: rgba(254, 250, 83, 1);" />ADE
+			<span />ADE
 		</li>
-		<li class="christmas"><span style="background-color: rgba(221, 82, 76, 1);" />Christmas</li>
-		<li class="eve"><span style="background-color: rgba(233, 162, 59, 1)" />New Year's Eve</li>
+		<li class="christmas"><span />Christmas</li>
+		<li class="eve"><span />New Year's Eve</li>
 	</ul>
 </article>
 
 <style>
+	h3 {
+		color: #5188cb;
+		font-weight: 500;
+		margin-top: 0;
+		margin-bottom: 1em;
+	}
 	ul li span {
 		width: 0.5em;
 		height: 0.5em;
-		background: orange;
 		border-radius: 100%;
 		display: inline-block;
 		margin-right: 1em;
@@ -132,11 +138,66 @@
 
 	.active {
 		opacity: 1;
-		color: #5188cb;
+	}
+
+	.eventsList li:nth-child(1) span {
+		border: 1px solid rgba(253, 186, 116, 1);
+	}
+
+	.eventsList .active:nth-child(1) span {
+		background-color: rgba(253, 186, 116, 1);
+	}
+
+	.eventsList li:nth-child(2) span {
+		border: 1px solid rgba(126, 212, 171, 1);
+	}
+
+	.eventsList .active:nth-child(2) span {
+		background-color: rgba(126, 212, 171, 1);
+	}
+
+	.eventsList li:nth-child(3) span {
+		border: 1px solid rgba(120, 111, 167, 1);
+	}
+
+	.eventsList .active:nth-child(3) span {
+		background-color: rgba(120, 111, 167, 1);
+	}
+
+	.eventsList li:nth-child(4) span {
+		border: 1px solid rgba(116, 62, 228, 1);
+	}
+
+	.eventsList .active:nth-child(4) span {
+		background-color: rgba(116, 62, 228, 1);
+	}
+
+	.eventsList li:nth-child(5) span {
+		border: 1px solid rgba(254, 250, 83, 1);
+	}
+
+	.eventsList .active:nth-child(5) span {
+		background-color: rgba(254, 250, 83, 1);
+	}
+
+	.eventsList li:nth-child(6) span {
+		border: 1px solid rgba(221, 82, 76, 1);
+	}
+
+	.eventsList .active:nth-child(6) span {
+		background-color: rgba(221, 82, 76, 1);
+	}
+
+	.eventsList li:nth-child(7) span {
+		border: 1px solid rgba(233, 162, 59, 1);
+	}
+
+	.eventsList .active:nth-child(7) span {
+		background-color: rgba(233, 162, 59, 1);
 	}
 
 	article {
-		padding: 2em;
+		padding: 1.2em;
 		border-radius: 0.2em;
 		background: white;
 		grid-column: 1 / 2;

@@ -34,7 +34,7 @@
 
 		/* Get value from Year input */
 		const year = document.querySelector('.years');
-		year.addEventListener('change', yearSelect);
+		year.addEventListener('change', drugSelect);
 
 		/* Get value from drug input */
 		const drug = document.querySelector('.drugs');
@@ -46,20 +46,21 @@
 
 		/* Initial score for the charts (default 2022)*/
 
-		for (let item of cocaineTweets[2022]) {
+		for (let item of cocaineTweets[year.value]) {
 			scoresTweets.push(item.score);
 		}
 
-		for (let item of cocaineNews[2022]) {
+		for (let item of cocaineNews[year.value]) {
 			scoresNews.push(item.score);
 		}
 
-		for (let item of cocaineTrends[2022]) {
+		for (let item of cocaineTrends[year.value]) {
 			scoresTrends.push(item.score);
 		}
 
 		function drugSelect() {
 			console.log(drug.value);
+			console.log(year.value);
 
 			if (drug.value === 'xtc') {
 				for (let item of xtcTweets[year.value]) {
@@ -108,10 +109,6 @@
 			scoresTrends = [];
 		}
 
-		function yearSelect() {
-			drugSelect();
-		}
-
 		const kingsday = document.querySelector('.kingsday');
 		const lowlands = document.querySelector('.lowlands');
 		const cross = document.querySelector('.cross');
@@ -158,32 +155,92 @@
 
 		lowlands.addEventListener('click', function () {
 			console.log('lowlands');
-			highlight('27', 'rgba(126, 212, 171, 1)');
+			highlight(
+				'27',
+				'rgba(126, 212, 171, 1)',
+				'16',
+				'29',
+				'32',
+				'41',
+				'50',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		cross.addEventListener('click', function () {
 			console.log('cross');
-			highlight('29', 'rgba(120, 111, 167, 1)');
+			highlight(
+				'29',
+				'rgba(120, 111, 167, 1)',
+				'16',
+				'27',
+				'32',
+				'41',
+				'50',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		pride.addEventListener('click', function () {
 			console.log('pride');
-			highlight('32', 'rgba(116, 62, 228, 1)');
+			highlight(
+				'32',
+				'rgba(116, 62, 228, 1)',
+				'16',
+				'27',
+				'29',
+				'41',
+				'50',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		ade.addEventListener('click', function () {
 			console.log('ade');
-			highlight('41', 'rgba(254, 250, 83, 1)');
+			highlight(
+				'41',
+				'rgba(254, 250, 83, 1)',
+				'16',
+				'27',
+				'29',
+				'32',
+				'50',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		christmas.addEventListener('click', function () {
 			console.log('christmas');
-			highlight('50', 'rgba(221, 82, 76, 1)');
+			highlight(
+				'50',
+				'rgba(221, 82, 76, 1)',
+				'16',
+				'27',
+				'29',
+				'32',
+				'41',
+				'51',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		eve.addEventListener('click', function () {
 			console.log('eve');
-			highlight('51', 'rgba(233, 162, 59, 1)');
+			highlight(
+				'51',
+				'rgba(233, 162, 59, 1)',
+				'16',
+				'27',
+				'29',
+				'32',
+				'41',
+				'50',
+				'rgba(112, 172, 230, 0.4)'
+			);
 		});
 
 		const myChart = new Chart(ctx, {
@@ -303,7 +360,7 @@
 					x: {
 						title: {
 							display: true,
-							text: 'Weeknumbers'
+							text: 'Week number'
 						},
 						ticks: {
 							color: (c) => {

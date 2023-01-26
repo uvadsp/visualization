@@ -92,7 +92,7 @@
 					x: {
 						title: {
 							display: true,
-							text: 'Weeknumbers'
+							text: 'Week number'
 						}
 					},
 					y: {
