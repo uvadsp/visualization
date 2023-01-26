@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const adeCocaine = {
+export const cocaineAde = {
   "2018": [
     {
       feature: ni,

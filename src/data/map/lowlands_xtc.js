@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const lowlandsxtc = {
+export const xtcLowlands = {
   "2022": [
     {
       year: 2022,

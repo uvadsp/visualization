@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const pridecocaine = {
+export const cocainePride = {
   "2022": [
     {
       year: 2022,
@@ -97,7 +97,7 @@ export const pridecocaine = {
       feature: ze,
       score: 0
     },
-  ]
+  ],
   "2021": [
     {
       year: 2021,

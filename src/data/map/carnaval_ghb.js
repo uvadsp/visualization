@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const carnavalghb = {
+export const ghbCarnaval = {
   "2022": [
     {
       year: 2022,

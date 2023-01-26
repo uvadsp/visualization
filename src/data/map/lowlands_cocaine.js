@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const lowlandscocaine = {
+export const cocaineLowlands = {
   "2022": [
     {
       year: 2022,

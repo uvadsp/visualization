@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const carnavalcocaine = {
+export const cocaineCarnaval = {
   "2022": [
     {
       year: 2022,
@@ -345,7 +345,6 @@ export const carnavalcocaine = {
     },
   ],
   "2018": [
-
     {
       year: 2018,
       feature: ni,

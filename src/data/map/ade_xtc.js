@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const adextc = {
+export const xtcAde = {
   "2022": [
     {
       year: 2022,
@@ -261,7 +261,7 @@ export const adextc = {
       feature: ze,
       score: 0
     },
-  ]
+  ],
   "2019": [
     {
       year: 2019,

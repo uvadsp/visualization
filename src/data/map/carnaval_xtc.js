@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const carnavalxtc = {
+export const xtcCarnaval = {
   "2022": [
     {
       year: 2022,

@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const pridextc = {
+export const xtcPride = {
   "2022": [
     {
       year: 2022,
@@ -99,8 +99,6 @@ export const pridextc = {
     },
   ],
   "2021": [
-
-
     {
       year: 2021,
       feature: ni,

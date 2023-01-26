@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const kingsdaycocaine = {
+export const cocaineKingsday = {
   "2022": [
     {
       year: 2022,

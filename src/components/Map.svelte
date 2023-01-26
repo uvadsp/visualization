@@ -6,9 +6,21 @@
 	import { bind } from '../../src/nice-select2.js';
 
 	/* Load datasets for events and drugs */
+	import { cocaineAde } from '../data/map/ade_cocaine';
+	import { ghbAde } from '../data/map/ade_ghb';
+	import { xtcAde } from '../data/map/ade_xtc';
+
+	import { cocaineCarnaval } from '../data/map/carnaval_cocaine';
+	import { ghbCarnaval } from '../data/map/carnaval_ghb';
+	import { xtcCarnaval } from '../data/map/carnaval_xtc';
+
 	import { cocaineKingsday } from '../data/map/kingsday_cocaine';
 	import { ghbKingsday } from '../data/map/kingsday_ghb';
 	import { xtcKingsday } from '../data/map/kingsday_xtc';
+
+	import { cocaineLowlands } from '../data/map/lowlands_cocaine';
+	import { ghbLowlands } from '../data/map/lowlands_ghb';
+	import { xtcLowlands } from '../data/map/lowlands_xtc';
 
 	import { cocainePride } from '../data/map/pride_cocaine';
 	import { ghbPride } from '../data/map/pride_ghb';

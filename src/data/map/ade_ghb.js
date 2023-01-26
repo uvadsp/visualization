@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const adeghb = {
+export const ghbAde = {
   "2022": [
     {
       feature: ni,

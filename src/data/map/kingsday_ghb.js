@@ -15,7 +15,7 @@ const ov = '';
 const fl = '';
 const ze = '';
 
-export const kingsdayghb = {
+export const ghbKingsday = {
   "2022": [
     {
       year: 2022,
